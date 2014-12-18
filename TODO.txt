@@ -1,0 +1,16 @@
+Added to my .bashrc :
+
+### My ruby shortcuts
+# Call rbuic4 with given arguments
+# $1 first argument
+# $2 second argument
+function rbuic4() {
+    # Bear in mind that this command only works when using a ruby version and gemset with the qtbindings gem installed
+    ~/.rvm/gems/ruby-2.1.5@qt/gems/qtbindings-4.8.6.0/ext/build/ruby/qtruby/tools/rbuic/rbuic4 $1 -x -o $2
+}
+
+
+
+
+
+1. set default date in date_dialog
