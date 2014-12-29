@@ -26,7 +26,7 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-Clean up code in treemodel ?
+Clean up code in treemodel?
 Extract code to view??? or delegate??
 Create your own view inhering from Qt::TreeView --> Create ProductsTreeView and add EUR and KG to the columns required
 Create your own delegate --> ??
