@@ -1,6 +1,6 @@
 class ProductsTab < Qt::Widget
 
-  def initialize( parent = nil )
+  def initialize( products, parent = nil )
     super(parent)
 
     label = Qt::Label.new( tr('Productes' ) )

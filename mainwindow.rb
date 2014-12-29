@@ -4,11 +4,11 @@ class MainWindow < Qt::MainWindow
 	
 	slots 'about()'
 	
-	def initialize( parent = nil )
-		super
+	def initialize( args )
+		super(nil)
 
     @tab_widget = Qt::TabWidget.new
-    @tab_widget.addTab( ProductsTab.new( self ), tr( 'Productes' ) )
+    @tab_widget.addTab( ProductsTab.new( args[:products], self ), tr( 'Productes' ) )
     #@tab_widget.addTab(CustomersTab.new, tr( 'Clients' ) )
     #@tab_widget.addTab(OrdersTab.new, tr( 'Comandes' ) )
 
