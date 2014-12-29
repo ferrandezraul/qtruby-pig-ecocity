@@ -7,8 +7,8 @@ class ProductsTab < Qt::Widget
 
 
     self.layout = Qt::VBoxLayout.new do |m|
-      m.addWidget(label)
-      m.addStretch(1)
+      m.addWidget( label )
+      m.addStretch( 1 )
     end
 
   end

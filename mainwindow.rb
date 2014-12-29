@@ -8,29 +8,29 @@ class MainWindow < Qt::MainWindow
 		super
 
     @tab_widget = Qt::TabWidget.new
-    @tab_widget.addTab(ProductsTab.new, tr( 'Productes' ) )
+    @tab_widget.addTab( ProductsTab.new( self ), tr( 'Productes' ) )
     #@tab_widget.addTab(CustomersTab.new, tr( 'Clients' ) )
     #@tab_widget.addTab(OrdersTab.new, tr( 'Comandes' ) )
 
     setCentralWidget( @tab_widget )
 
-    createActions()
-	  createMenus()
+    create_actions
+	  create_menus
 	end
 	
 	def about
 	   Qt::MessageBox.about(self, tr('Ecocity Porc'), tr( 'Autor: Raul Ferrandez Salvador' ) )
 	end
 	
-	def createActions
+	def create_actions
 	    @about_action = Qt::Action.new(tr("&About"), self)
 	    @about_action.statusTip = tr("Show the application's About box")
-	    connect(@about_action, SIGNAL('triggered()'), self, SLOT('about()'))
+	    connect( @about_action, SIGNAL('triggered()'), self, SLOT('about()') )
 	end
 	
-	def createMenus
-	    @helpMenu = menuBar().addMenu(tr("&Help"))
-	    @helpMenu.addAction(@about_action)
+	def create_menus
+	    @help_menu = menuBar().addMenu(tr("&Help"))
+	    @help_menu.addAction(@about_action)
 	end
 
 end
