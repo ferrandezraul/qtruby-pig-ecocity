@@ -1,3 +1,4 @@
+require './products_tab'
 
 class MainWindow < Qt::MainWindow
 	
@@ -6,8 +7,15 @@ class MainWindow < Qt::MainWindow
 	def initialize( parent = nil )
 		super
 
-	    createActions()
-	    createMenus()
+    @tab_widget = Qt::TabWidget.new
+    @tab_widget.addTab(ProductsTab.new, tr( 'Productes' ) )
+    #@tab_widget.addTab(CustomersTab.new, tr( 'Clients' ) )
+    #@tab_widget.addTab(OrdersTab.new, tr( 'Comandes' ) )
+
+    setCentralWidget( @tab_widget )
+
+    createActions()
+	  createMenus()
 	end
 	
 	def about
@@ -15,14 +23,14 @@ class MainWindow < Qt::MainWindow
 	end
 	
 	def createActions
-	    @aboutAct = Qt::Action.new(tr("&About"), self)
-	    @aboutAct.statusTip = tr("Show the application's About box")
-	    connect(@aboutAct, SIGNAL('triggered()'), self, SLOT('about()'))
+	    @about_action = Qt::Action.new(tr("&About"), self)
+	    @about_action.statusTip = tr("Show the application's About box")
+	    connect(@about_action, SIGNAL('triggered()'), self, SLOT('about()'))
 	end
 	
 	def createMenus
 	    @helpMenu = menuBar().addMenu(tr("&Help"))
-	    @helpMenu.addAction(@aboutAct)
+	    @helpMenu.addAction(@about_action)
 	end
 
 end
