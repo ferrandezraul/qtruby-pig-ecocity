@@ -1,7 +1,8 @@
-$:.unshift File.join( File.dirname( __FILE__ ), "lib" )
+$:.unshift File.join( File.dirname( __FILE__ ), '.' )
+$:.unshift File.join( File.dirname( __FILE__ ), 'lib' )
 
 require 'Qt'
-require './mainwindow.rb'
+require 'mainwindow.rb'
 
 require 'product'
 require 'product_csv'

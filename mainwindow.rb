@@ -1,4 +1,5 @@
-require './products_tab'
+
+require 'products_tab'
 
 class MainWindow < Qt::MainWindow
 	
