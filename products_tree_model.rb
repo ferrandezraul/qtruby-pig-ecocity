@@ -24,13 +24,21 @@ class ProductsTreeModel < Qt::AbstractItemModel
 	def data(index, role)
     if !index.valid?
 	    return Qt::Variant.new
-		end
+    end
+
+    # This causes a bug in qtbindings
+    #if role == Qt::TextAlignmentRole
+    #  if index.column == 1   #change text alignment only column 1
+    #    return Qt::AlignRight
+    #  end
+    #end
 	
 	  if role != Qt::DisplayRole
 	    return Qt::Variant.new
-		end
+    end
 	
     item = index.internalPointer
+
     item.data(index.column)
 	end
 	
