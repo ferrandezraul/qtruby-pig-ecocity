@@ -9,7 +9,7 @@ class ProductsTab < Qt::Widget
 
     view = Qt::TreeView.new
     view.model = products_model
-    view.windowTitle = "Simple Tree Model"
+    view.windowTitle = 'Products Tree Model'
     view.show
 
     self.layout = Qt::VBoxLayout.new do |m|

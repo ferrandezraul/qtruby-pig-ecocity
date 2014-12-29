@@ -5,7 +5,7 @@ class ProductsTreeModel < Qt::AbstractItemModel
 	def initialize( products, parent = nil )
     super( parent )
     root_data = []
-    root_data << 'Nom' << 'Descripcio'
+    root_data << 'Nom' << 'Preu Tenda' << 'Preu Coope' << 'Preu PVP' << 'Tipus' << 'IVA' << 'Pes/un'
     @root_item = ProductTreeItem.new( root_data )
     setupModelData( products, @root_item )
 	end
@@ -91,12 +91,19 @@ class ProductsTreeModel < Qt::AbstractItemModel
 	def setup_model_data( products, parent )
 
     products.each do | product |
-      product_columns_data = [ product.name, product.price_tienda ]
+      product_columns_data = [ product.name,
+                               product.price_tienda,
+                               product.price_coope,
+                               product.price_pvp,
+                               product.price_type,
+                               product.iva,
+                               product.weight_per_unit ]
+
       product_item = ProductTreeItem.new( product_columns_data, parent )
 
       if product.has_options?
         product.options.each do | option |
-          product_item.appendChild( ProductTreeItem.new( option.to_s, product_item ) )
+          product_item.appendChild( ProductTreeItem.new( [ option.to_s ], product_item ) )
         end
       end
 
