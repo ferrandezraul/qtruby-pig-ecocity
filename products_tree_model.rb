@@ -88,25 +88,24 @@ class ProductsTreeModel < Qt::AbstractItemModel
 
   alias :rowCount :row_count
 	
-	def setup_model_data( products, parent)
-    parents = []
-    parents << parent
+	def setup_model_data( products, parent )
 
-    products.each_with_index do | product, index |
-      column_data = [ product.name, product.price_tienda ]
+    products.each do | product |
+      product_columns_data = [ product.name, product.price_tienda ]
+      product_item = ProductTreeItem.new( product_columns_data, parent )
 
-      product_item = ProductTreeItem.new(column_data, parents.last)
       if product.has_options?
         product.options.each do | option |
-          option_column_data = [ option.quantity, option.name ]
-          product_item.appendChild( ProductTreeItem.new( option_column_data, product_item ) )
+          product_item.appendChild( ProductTreeItem.new( option.to_s, product_item ) )
         end
       end
-      parents.last.appendChild( product_item )
+
+      parent.appendChild( product_item )
 
     end
 
   end
 
   alias :setupModelData :setup_model_data
+
 end

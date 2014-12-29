@@ -20,18 +20,18 @@ class MainWindow < Qt::MainWindow
 	end
 	
 	def about
-	   Qt::MessageBox.about(self, tr('Ecocity Porc'), tr( 'Autor: Raul Ferrandez Salvador' ) )
+	  Qt::MessageBox.about(self, tr('Ecocity Porc'), tr( 'Autor: Raul Ferrandez Salvador' ) )
 	end
 	
 	def create_actions
-	    @about_action = Qt::Action.new(tr("&About"), self)
-	    @about_action.statusTip = tr("Show the application's About box")
-	    connect( @about_action, SIGNAL('triggered()'), self, SLOT('about()') )
+    @about_action = Qt::Action.new(tr("&About"), self)
+    @about_action.statusTip = tr("Show the application's About box")
+    connect( @about_action, SIGNAL('triggered()'), self, SLOT('about()') )
 	end
 	
 	def create_menus
-	    @help_menu = menuBar().addMenu(tr("&Help"))
-	    @help_menu.addAction(@about_action)
+    @help_menu = menuBar().addMenu(tr("&Help"))
+    @help_menu.addAction(@about_action)
 	end
 
 end

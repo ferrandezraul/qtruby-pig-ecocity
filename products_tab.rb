@@ -14,7 +14,9 @@ class ProductsTab < Qt::Widget
 
     self.layout = Qt::VBoxLayout.new do |m|
       m.addWidget( view )
-      m.addStretch( 1 )
+
+      # Add spacer
+      #m.addStretch( 1 )
     end
 
   end
