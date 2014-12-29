@@ -70,7 +70,6 @@ class ProductsTreeModel < Qt::AbstractItemModel
 	
     child_item = index.internalPointer
     parent_item = child_item.parent
-	
 
 	  return Qt::ModelIndex.new if parent_item == @root_item
 	
@@ -91,14 +90,20 @@ class ProductsTreeModel < Qt::AbstractItemModel
 	
 	def setup_model_data( products, parent)
     parents = []
-    indentations = []
     parents << parent
-    indentations << 0
 
     products.each_with_index do | product, index |
-      column_string = [ product.name, product.price_tienda ]
-      column_data = column_string
-      parents.last.appendChild(ProductTreeItem.new(column_data, parents.last))
+      column_data = [ product.name, product.price_tienda ]
+
+      product_item = ProductTreeItem.new(column_data, parents.last)
+      if product.has_options?
+        product.options.each do | option |
+          option_column_data = [ option.quantity, option.name ]
+          product_item.appendChild( ProductTreeItem.new( option_column_data, product_item ) )
+        end
+      end
+      parents.last.appendChild( product_item )
+
     end
 
   end
