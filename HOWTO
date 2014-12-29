@@ -3,6 +3,8 @@ https://techbase.kde.org/Development/Languages/Ruby#Build_dependencies
 Documentation:
 http://www.rubydoc.info/gems/qtbindings/frames
 
+For installation, you need to install cmake, otherwise gem install qtbindings will fail.
+
 or also use tool rbqtapi
 i.e. rbqtapi Qt::TextEdit
 Will list all the methods in the Qt::TextEdit class

@@ -9,7 +9,6 @@ file = Qt::File.new 'ui/date_dialog.ui' do
 end
 
 date_dialog = Qt::UiLoader.new.load file
-date_dialog.date_edit.
 
 file.close
 
@@ -18,6 +17,5 @@ if date_dialog.nil?
   exit
 end
 date_dialog.show
-
 
 a.exec
