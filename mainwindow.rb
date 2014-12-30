@@ -1,7 +1,10 @@
 require 'products_tab'
 require 'customers_tab'
+require 'orders_tab'
+
 require 'customers_model'
 require 'products_model'
+require 'orders_model'
 
 class MainWindow < Qt::MainWindow
 	
@@ -12,11 +15,12 @@ class MainWindow < Qt::MainWindow
 
     @products_model = ProductsModel.get_model( args[:products], self )
     @customers_model = CustomersModel.get_model( args[:customers], self )
+    @orders_model = OrdersModel.get_model( args[:orders], self )
 
     @tab_widget = Qt::TabWidget.new
     @tab_widget.addTab( ProductsTab.new( @products_model, self ), tr( 'Productes' ) )
     @tab_widget.addTab( CustomersTab.new( @customers_model, self ), tr( 'Clients' ) )
-    #@tab_widget.addTab(OrdersTab.new, tr( 'Comandes' ) )
+    @tab_widget.addTab( OrdersTab.new( @orders_model, self ), tr( 'Comandes' ) )
 
     setCentralWidget( @tab_widget )
 
