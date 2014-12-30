@@ -1,0 +1,1389 @@
+D, [2014-12-30T14:32:51.282028 #4899] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T14:32:51.282196 #4899] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:32:51.282316 #4899] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:32:51.282415 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.282505 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.282574 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.282635 #4899] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:32:51.282697 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.282759 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.282821 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.282861 #4899] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:32:51.282904 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.282964 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.283017 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.283070 #4899] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:32:51.283114 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.283175 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.283228 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.283280 #4899] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:32:51.283322 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.283382 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.283434 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.283473 #4899] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:32:51.283514 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.283574 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.283625 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.283663 #4899] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:32:51.283704 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.283775 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.283827 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.283866 #4899] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:32:51.283907 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.283967 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.284018 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.284056 #4899] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:32:51.284098 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.284168 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.284219 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.284258 #4899] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:32:51.284300 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.284359 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.284411 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.284851 #4899] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T14:32:51.284891 #4899] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:32:51.284928 #4899] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:32:51.284972 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.285033 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.285086 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.285125 #4899] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:32:51.285166 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.285226 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.285278 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.285328 #4899] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:32:51.285370 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.285429 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.285487 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.285527 #4899] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:32:51.285569 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.285629 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.285682 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.285720 #4899] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:32:51.285771 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.285832 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.285884 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.285922 #4899] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:32:51.285964 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.286023 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.286075 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.286113 #4899] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T14:32:51.286155 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.286225 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.286277 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.286316 #4899] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:32:51.286357 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.286417 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.286468 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.286506 #4899] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:32:51.286547 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.286607 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.286670 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.286708 #4899] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:32:51.286750 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.286809 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.286872 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.286928 #4899] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:32:51.286978 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.287051 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.287107 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.287167 #4899] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:32:51.287210 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.287271 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.287323 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.287373 #4899] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:32:51.287424 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.287484 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.287536 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.287988 #4899] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T14:32:51.288029 #4899] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:32:51.288067 #4899] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:32:51.288111 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.288173 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.288226 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.288278 #4899] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:32:51.288322 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.288383 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.288435 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.288474 #4899] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:32:51.288515 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.288575 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.288631 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.288671 #4899] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:32:51.288719 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.288780 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.288832 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.288870 #4899] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:32:51.288912 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.288980 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.289032 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.289070 #4899] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:32:51.289112 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.289177 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.289229 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.289267 #4899] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:32:51.289316 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.289376 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.289428 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.289466 #4899] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:32:51.289514 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.289574 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.289626 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.289664 #4899] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T14:32:51.289713 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.289786 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.289855 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.289897 #4899] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:32:51.289947 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.290009 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.290062 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.290101 #4899] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:32:51.290144 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.290205 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.290264 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.290303 #4899] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:32:51.290345 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.290406 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.290458 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.290504 #4899] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:32:51.290547 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.290607 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.290659 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:32:51.290698 #4899] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:32:51.290740 #4899] DEBUG -- : New model index false
+D, [2014-12-30T14:32:51.290811 #4899] DEBUG -- : Data set false
+D, [2014-12-30T14:32:51.290864 #4899] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.169015 #4928] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T14:37:59.169163 #4928] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:37:59.169292 #4928] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:37:59.169400 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.169501 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.169578 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.169648 #4928] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:37:59.169724 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.169801 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.169879 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.169955 #4928] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:37:59.170031 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.170107 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.170176 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.170244 #4928] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:37:59.170322 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.170387 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.170442 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.170494 #4928] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:37:59.170539 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.170603 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.170658 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.170700 #4928] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:37:59.170744 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.170808 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.170864 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.170905 #4928] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:37:59.170965 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.171034 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.171091 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.171133 #4928] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:37:59.171177 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.171241 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.171296 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.171337 #4928] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:37:59.171381 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.171454 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.171509 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.171550 #4928] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:37:59.171593 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.171657 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.171712 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.172156 #4928] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T14:37:59.172197 #4928] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:37:59.172237 #4928] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:37:59.172282 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.172346 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.172402 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.172444 #4928] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:37:59.172489 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.172552 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.172617 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.172659 #4928] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:37:59.172703 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.172766 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.172821 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.172863 #4928] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:37:59.172908 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.172971 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.173026 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.173079 #4928] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:37:59.173124 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.173186 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.173241 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.173287 #4928] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:37:59.173333 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.173396 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.173471 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.173516 #4928] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T14:37:59.173561 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.173637 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.173693 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.173735 #4928] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:37:59.173779 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.173843 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.173898 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.173940 #4928] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:37:59.173984 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.174057 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.174112 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.174153 #4928] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:37:59.174197 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.174282 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.174337 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.174378 #4928] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:37:59.174423 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.174485 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.174540 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.174593 #4928] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:37:59.174637 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.174700 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.174755 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.174796 #4928] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:37:59.174840 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.174904 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.174958 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.175414 #4928] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T14:37:59.175457 #4928] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:37:59.175497 #4928] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:37:59.175543 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.175608 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.175663 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.175705 #4928] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:37:59.175765 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.175830 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.175886 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.175927 #4928] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:37:59.175972 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.176035 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.176091 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.176131 #4928] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:37:59.176186 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.176249 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.176304 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.176345 #4928] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:37:59.176389 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.176452 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.176506 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.176547 #4928] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:37:59.176596 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.176668 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.176724 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.176765 #4928] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:37:59.176809 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.176879 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.176934 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.176975 #4928] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:37:59.177019 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.177088 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.177143 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.177184 #4928] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T14:37:59.177228 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.177298 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.177353 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.177394 #4928] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:37:59.177439 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.177509 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.177564 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.177605 #4928] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:37:59.177649 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.177719 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.177775 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.177816 #4928] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:37:59.177867 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.177931 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.177985 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.178027 #4928] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:37:59.178071 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.178133 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.178195 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:37:59.178236 #4928] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:37:59.178281 #4928] DEBUG -- : New model index false
+D, [2014-12-30T14:37:59.178344 #4928] DEBUG -- : Data set false
+D, [2014-12-30T14:37:59.178398 #4928] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.098095 #4973] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T14:44:35.098246 #4973] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:44:35.098338 #4973] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:44:35.098427 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.098509 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.098579 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.098629 #4973] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:44:35.098682 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.098760 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.098821 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.098867 #4973] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:44:35.098917 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.098987 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.099057 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.099105 #4973] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:44:35.099156 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.099225 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.099296 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.099342 #4973] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:44:35.099400 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.099470 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.099531 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.099576 #4973] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:44:35.099625 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.099694 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.099754 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.099799 #4973] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:35.099858 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.099928 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.099987 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.100032 #4973] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:44:35.100081 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.100150 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.100209 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.100254 #4973] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:44:35.100304 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.100387 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.100447 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.100492 #4973] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:44:35.100541 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.100609 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.100668 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.101115 #4973] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T14:44:35.101157 #4973] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:44:35.101203 #4973] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:44:35.101254 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.101323 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.101382 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.101441 #4973] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:44:35.101513 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.101606 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.101691 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.101740 #4973] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:44:35.101803 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.101885 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.101938 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.101978 #4973] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:44:35.102021 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.102083 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.102136 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.102186 #4973] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:44:35.102229 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.102291 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.102344 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.102383 #4973] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:44:35.102426 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.102488 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.102542 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.102581 #4973] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T14:44:35.102636 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.102699 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.102752 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.102792 #4973] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:44:35.102841 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.102904 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.102958 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.102997 #4973] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:35.103046 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.103120 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.103175 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.103215 #4973] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:35.103258 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.103320 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.103374 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.103413 #4973] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:44:35.103456 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.103518 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.103583 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.103623 #4973] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:44:35.103665 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.103727 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.103780 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.103831 #4973] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:44:35.103884 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.103946 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.104000 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.104458 #4973] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T14:44:35.104498 #4973] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:44:35.104536 #4973] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:44:35.104581 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.104644 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.104699 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.104748 #4973] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:44:35.104792 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.104855 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.104908 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.104948 #4973] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:44:35.104991 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.105053 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.105107 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.105147 #4973] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:44:35.105191 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.105264 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.105318 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.105358 #4973] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:44:35.105401 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.105463 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.105516 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.105565 #4973] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:44:35.105619 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.105696 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.105749 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.105789 #4973] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:44:35.105832 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.105893 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.105946 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.105985 #4973] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:44:35.106028 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.106103 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.106158 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.106198 #4973] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T14:44:35.106241 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.106311 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.106365 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.106405 #4973] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:44:35.106449 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.106511 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.106571 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.106611 #4973] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:44:35.106654 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.106723 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.106776 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.106816 #4973] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:44:35.106859 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.106928 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.106982 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.107031 #4973] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:35.107079 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.107149 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.107203 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:35.107243 #4973] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:44:35.107286 #4973] DEBUG -- : New model index false
+D, [2014-12-30T14:44:35.107354 #4973] DEBUG -- : Data set false
+D, [2014-12-30T14:44:35.107408 #4973] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.081513 #4989] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T14:44:59.081664 #4989] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:44:59.081788 #4989] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:44:59.081890 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.081982 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.082054 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.082116 #4989] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:44:59.082181 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.082246 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.082311 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.082353 #4989] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:44:59.082398 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.082461 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.082516 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.082557 #4989] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:44:59.082601 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.082664 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.082719 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.082774 #4989] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:44:59.082818 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.082882 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.082935 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.082976 #4989] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:44:59.083020 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.083097 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.083153 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.083194 #4989] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:59.083249 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.083322 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.083377 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.083418 #4989] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:44:59.083462 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.083524 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.083578 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.083618 #4989] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:44:59.083661 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.083734 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.083788 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.083828 #4989] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:44:59.083871 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.083933 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.083987 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.084435 #4989] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T14:44:59.084476 #4989] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:44:59.084515 #4989] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:44:59.084560 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.084623 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.084678 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.084718 #4989] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:44:59.084762 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.084823 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.084877 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.084930 #4989] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:44:59.084973 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.085035 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.085088 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.085128 #4989] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:44:59.085172 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.085234 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.085288 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.085328 #4989] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:44:59.085382 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.085444 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.085498 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.085538 #4989] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:44:59.085581 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.085643 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.085697 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.085738 #4989] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T14:44:59.085781 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.085854 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.085908 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.085948 #4989] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:44:59.085992 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.086054 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.086107 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.086147 #4989] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:59.086191 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.086254 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.086318 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.086359 #4989] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:59.086402 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.086464 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.086523 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.086565 #4989] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:44:59.086609 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.086671 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.086725 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.086787 #4989] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:44:59.086831 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.086894 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.086967 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.087011 #4989] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:44:59.087062 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.087126 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.087181 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.087627 #4989] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T14:44:59.087668 #4989] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:44:59.087707 #4989] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:44:59.087753 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.087816 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.087871 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.087926 #4989] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:44:59.087971 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.088034 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.088088 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.088129 #4989] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:44:59.088172 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.088235 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.088288 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.088328 #4989] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:44:59.088379 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.088453 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.088515 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.088555 #4989] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:44:59.088599 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.088669 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.088723 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.088763 #4989] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:44:59.088806 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.088875 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.088928 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.088968 #4989] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:44:59.089020 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.089084 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.089138 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.089178 #4989] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:44:59.089229 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.089292 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.089346 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.089386 #4989] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T14:44:59.089437 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.089500 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.089554 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.089594 #4989] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:44:59.089644 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.089727 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.089786 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.089828 #4989] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:44:59.089872 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.089935 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.089995 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.090035 #4989] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:44:59.090090 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.090154 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.090209 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.090257 #4989] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:44:59.090302 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.090367 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.090422 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:44:59.090464 #4989] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:44:59.090508 #4989] DEBUG -- : New model index false
+D, [2014-12-30T14:44:59.090583 #4989] DEBUG -- : Data set false
+D, [2014-12-30T14:44:59.090639 #4989] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.583751 #5008] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T14:47:45.583898 #5008] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:47:45.584017 #5008] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:47:45.584112 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.584204 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.584316 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.584372 #5008] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:47:45.584437 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.584534 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.584591 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.584634 #5008] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:47:45.584679 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.584743 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.584799 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.584840 #5008] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:47:45.584884 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.584947 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.585012 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.585054 #5008] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:47:45.585098 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.585161 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.585216 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.585258 #5008] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:47:45.585302 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.585365 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.585420 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.585476 #5008] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:47:45.585520 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.585583 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.585638 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.585679 #5008] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:47:45.585722 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.585785 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.585840 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.585881 #5008] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:47:45.585934 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.585998 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.586054 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.586103 #5008] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:47:45.586149 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.586212 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.586267 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.586718 #5008] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T14:47:45.586760 #5008] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:47:45.586799 #5008] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:47:45.586843 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.586907 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.586963 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.587004 #5008] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:47:45.587054 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.587128 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.587185 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.587225 #5008] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:47:45.587269 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.587331 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.587386 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.587427 #5008] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:47:45.587470 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.587532 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.587587 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.587638 #5008] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:47:45.587682 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.587745 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.587800 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.587840 #5008] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:47:45.587884 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.587946 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.588001 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.588041 #5008] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T14:47:45.588095 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.588158 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.588212 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.588253 #5008] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:47:45.588296 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.588358 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.588413 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.588453 #5008] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:47:45.588496 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.588569 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.588635 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.588692 #5008] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:47:45.588750 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.588836 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.588892 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.588933 #5008] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:47:45.588976 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.589039 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.589106 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.589147 #5008] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:47:45.589191 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.589253 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.589308 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.589349 #5008] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:47:45.589398 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.589462 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.589518 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.590001 #5008] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T14:47:45.590042 #5008] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:47:45.590081 #5008] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:47:45.590126 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.590189 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.590245 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.590302 #5008] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:47:45.590352 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.590420 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.590481 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.590524 #5008] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:47:45.590570 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.590637 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.590697 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.590748 #5008] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:47:45.590795 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.590862 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.590920 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.590962 #5008] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:47:45.591009 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.591083 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.591142 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.591183 #5008] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:47:45.591238 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.591305 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.591363 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.591405 #5008] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:47:45.591451 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.591526 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.591586 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.591628 #5008] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:47:45.591674 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.591747 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.591806 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.591849 #5008] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T14:47:45.591903 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.591970 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.592029 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.592070 #5008] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:47:45.592123 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.592190 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.592249 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.592291 #5008] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:47:45.592343 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.592409 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.592468 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.592510 #5008] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:47:45.592563 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.592630 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.592689 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.592731 #5008] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:47:45.592782 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.592849 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.592915 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:47:45.592957 #5008] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:47:45.593003 #5008] DEBUG -- : New model index false
+D, [2014-12-30T14:47:45.593070 #5008] DEBUG -- : Data set false
+D, [2014-12-30T14:47:45.593129 #5008] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.879948 #5042] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T14:55:38.880095 #5042] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:55:38.880214 #5042] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:55:38.880319 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.880403 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.880491 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.880544 #5042] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:55:38.880616 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.880673 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.880743 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.880785 #5042] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:55:38.880837 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.880893 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.880955 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.880996 #5042] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:55:38.881048 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.881104 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.881166 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.881217 #5042] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:55:38.881268 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.881324 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.881386 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.881427 #5042] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:55:38.881477 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.881533 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.881595 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.881636 #5042] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:55:38.881697 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.881753 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.881814 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.881854 #5042] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:55:38.881905 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.881960 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.882021 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.882062 #5042] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:55:38.882113 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.882182 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.882243 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.882284 #5042] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:55:38.882335 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.882390 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.882450 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.882896 #5042] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T14:55:38.882936 #5042] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:55:38.882975 #5042] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:55:38.883033 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.883091 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.883162 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.883205 #5042] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:55:38.883256 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.883311 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.883385 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.883426 #5042] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:55:38.883476 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.883531 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.883591 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.883631 #5042] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:55:38.883681 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.883736 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.883796 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.883845 #5042] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:55:38.883896 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.883951 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.884011 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.884051 #5042] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:55:38.884101 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.884156 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.884216 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.884256 #5042] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T14:55:38.884317 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.884372 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.884432 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.884472 #5042] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:55:38.884521 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.884576 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.884642 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.884691 #5042] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:55:38.884743 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.884809 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.884870 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.884910 #5042] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:55:38.884961 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.885016 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.885077 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.885118 #5042] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:55:38.885167 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.885233 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.885293 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.885333 #5042] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:55:38.885383 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.885439 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.885499 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.885547 #5042] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:55:38.885617 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.885676 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.885747 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.886226 #5042] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T14:55:38.886268 #5042] DEBUG -- : Parent index is valid true
+D, [2014-12-30T14:55:38.886308 #5042] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T14:55:38.886360 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.886417 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.886486 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.886534 #5042] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T14:55:38.886586 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.886642 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.886703 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.886743 #5042] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T14:55:38.886794 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.886849 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.886909 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.886962 #5042] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T14:55:38.887013 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.887084 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.887146 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.887187 #5042] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T14:55:38.887238 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.887293 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.887353 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.887407 #5042] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T14:55:38.887459 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.887515 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.887576 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.887617 #5042] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T14:55:38.887668 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.887723 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.887783 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.887824 #5042] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T14:55:38.887882 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.887937 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.887998 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.888038 #5042] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T14:55:38.888098 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.888153 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.888214 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.888254 #5042] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T14:55:38.888311 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.888366 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.888426 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.888475 #5042] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T14:55:38.888525 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.888580 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.888640 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.888688 #5042] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T14:55:38.888739 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.888794 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.888862 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.888903 #5042] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T14:55:38.888963 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.889024 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.889109 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T14:55:38.889151 #5042] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T14:55:38.889203 #5042] DEBUG -- : New model index false
+D, [2014-12-30T14:55:38.889260 #5042] DEBUG -- : Data set false
+D, [2014-12-30T14:55:38.889324 #5042] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.806872 #5641] DEBUG -- : Parent index contains Lot 2.5 kg
+D, [2014-12-30T15:58:48.807011 #5641] DEBUG -- : Parent index is valid true
+D, [2014-12-30T15:58:48.807153 #5641] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T15:58:48.807258 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.807333 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.807429 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.807502 #5641] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T15:58:48.807584 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.807641 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.807703 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.807743 #5641] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T15:58:48.807793 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.807861 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.807921 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.807961 #5641] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T15:58:48.808011 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.808066 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.808125 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.808165 #5641] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T15:58:48.808214 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.808269 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.808338 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.808378 #5641] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T15:58:48.808427 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.808482 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.808541 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.808582 #5641] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T15:58:48.808631 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.808686 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.808745 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.808795 #5641] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T15:58:48.808843 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.808897 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.808957 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.808997 #5641] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T15:58:48.809047 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.809101 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.809159 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.809199 #5641] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T15:58:48.809257 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.809311 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.809370 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.809813 #5641] DEBUG -- : Parent index contains Lot 4 kg
+D, [2014-12-30T15:58:48.809853 #5641] DEBUG -- : Parent index is valid true
+D, [2014-12-30T15:58:48.809891 #5641] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T15:58:48.809940 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.810005 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.810065 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.810105 #5641] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T15:58:48.810154 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.810208 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.810268 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.810307 #5641] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T15:58:48.810356 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.810419 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.810479 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.810519 #5641] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T15:58:48.810573 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.810629 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.810688 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.810728 #5641] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T15:58:48.810777 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.810832 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.810903 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.810943 #5641] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T15:58:48.810992 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.811056 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.811119 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.811160 #5641] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T15:58:48.811210 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.811265 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.811337 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.811377 #5641] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T15:58:48.811426 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.811481 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.811540 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.811580 #5641] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T15:58:48.811629 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.811683 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.811742 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.811782 #5641] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T15:58:48.811840 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.811894 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.811953 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.811993 #5641] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T15:58:48.812042 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.812096 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.812155 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.812194 #5641] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T15:58:48.812243 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.812308 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.812367 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.812407 #5641] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T15:58:48.812455 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.812509 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.812568 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.813021 #5641] DEBUG -- : Parent index contains Lot 6 kg
+D, [2014-12-30T15:58:48.813061 #5641] DEBUG -- : Parent index is valid true
+D, [2014-12-30T15:58:48.813099 #5641] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T15:58:48.813148 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.813203 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.813263 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.813304 #5641] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T15:58:48.813353 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.813418 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.813477 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.813517 #5641] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T15:58:48.813566 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.813619 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.813679 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.813719 #5641] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T15:58:48.813775 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.813830 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.813900 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.813940 #5641] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T15:58:48.813988 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.814043 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.814102 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.814142 #5641] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T15:58:48.814191 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.814245 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.814305 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.814355 #5641] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T15:58:48.814404 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.814458 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.814518 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.814557 #5641] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T15:58:48.814606 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.814660 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.814719 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.814758 #5641] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T15:58:48.814820 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.814874 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.814934 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.814973 #5641] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T15:58:48.815027 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.815084 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.815144 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.815183 #5641] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T15:58:48.815232 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.815304 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.815364 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.815404 #5641] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T15:58:48.815453 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.815508 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.815567 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.815609 #5641] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T15:58:48.815677 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.815743 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.815804 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T15:58:48.815844 #5641] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T15:58:48.815894 #5641] DEBUG -- : New model index false
+D, [2014-12-30T15:58:48.815948 #5641] DEBUG -- : Data set false
+D, [2014-12-30T15:58:48.816007 #5641] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.054622 #5656] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:00:16.054767 #5656] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:00:16.054899 #5656] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:00:16.055019 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.055100 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.055196 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.055252 #5656] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T16:00:16.055344 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.055412 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.055475 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.055519 #5656] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T16:00:16.055574 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.055654 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.055722 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.055765 #5656] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T16:00:16.055820 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.055878 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.055943 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.055985 #5656] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T16:00:16.056039 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.056096 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.056171 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.056213 #5656] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T16:00:16.056267 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.056324 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.056389 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.056431 #5656] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:00:16.056501 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.056564 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.056631 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.056685 #5656] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T16:00:16.056739 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.056798 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.056864 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.056905 #5656] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T16:00:16.056959 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.057016 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.057081 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.057122 #5656] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T16:00:16.057183 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.057240 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.057305 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.057749 #5656] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:00:16.057790 #5656] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:00:16.057829 #5656] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:00:16.057880 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.057948 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.058014 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.058056 #5656] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T16:00:16.058110 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.058167 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.058232 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.058274 #5656] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T16:00:16.058328 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.058395 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.058460 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.058501 #5656] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T16:00:16.058555 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.058611 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.058675 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.058717 #5656] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T16:00:16.058771 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.058827 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.058904 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.058946 #5656] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T16:00:16.058999 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.059068 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.059131 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.059173 #5656] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T16:00:16.059227 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.059285 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.059350 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.059405 #5656] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T16:00:16.059459 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.059515 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.059580 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.059621 #5656] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:00:16.059675 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.059731 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.059795 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.059836 #5656] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:00:16.059901 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.059957 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.060022 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.060063 #5656] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T16:00:16.060117 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.060173 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.060238 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.060279 #5656] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T16:00:16.060332 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.060399 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.060463 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.060505 #5656] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T16:00:16.060557 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.060614 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.060678 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.061169 #5656] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:00:16.061210 #5656] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:00:16.061249 #5656] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:00:16.061304 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.061362 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.061427 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.061469 #5656] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T16:00:16.061522 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.061579 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.061655 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.061697 #5656] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T16:00:16.061751 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.061808 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.061873 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.061914 #5656] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T16:00:16.061968 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.062026 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.062100 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.062142 #5656] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T16:00:16.062195 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.062251 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.062316 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.062357 #5656] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T16:00:16.062410 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.062467 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.062536 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.062587 #5656] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T16:00:16.062642 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.062699 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.062763 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.062805 #5656] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T16:00:16.062859 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.062916 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.062981 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.063032 #5656] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T16:00:16.063104 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.063162 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.063228 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.063269 #5656] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T16:00:16.063323 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.063379 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.063444 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.063496 #5656] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T16:00:16.063559 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.063632 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.063695 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.063736 #5656] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T16:00:16.063791 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.063848 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.063913 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.063954 #5656] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:00:16.064008 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.064073 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.064139 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:00:16.064181 #5656] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T16:00:16.064235 #5656] DEBUG -- : New model index false
+D, [2014-12-30T16:00:16.064292 #5656] DEBUG -- : Data set false
+D, [2014-12-30T16:00:16.064357 #5656] DEBUG -- : Data inserted 
+D, [2014-12-30T16:02:28.003684 #5680] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:02:28.003834 #5680] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:02:28.003956 #5680] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:03:02.263314 #5693] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:03:02.263465 #5693] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:03:02.263580 #5693] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:03:02.263740 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.263817 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.263935 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.263989 #5693] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T16:03:02.264089 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.264158 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.264220 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.264262 #5693] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T16:03:02.264332 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.264404 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.264466 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.264509 #5693] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T16:03:02.264578 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.264636 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.264698 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.264767 #5693] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T16:03:02.264838 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.264897 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.264959 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.265000 #5693] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T16:03:02.265068 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.265126 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.265186 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.265246 #5693] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:03:02.265315 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.265372 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.265433 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.265474 #5693] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T16:03:02.265543 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.265599 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.265677 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.265718 #5693] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T16:03:02.265786 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.265844 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.265904 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.265945 #5693] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T16:03:02.266014 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.266072 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.266147 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.266598 #5693] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:03:02.266640 #5693] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:03:02.266679 #5693] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:03:02.266751 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.266809 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.266870 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.266912 #5693] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T16:03:02.266992 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.267056 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.267119 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.267160 #5693] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T16:03:02.267229 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.267286 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.267348 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.267389 #5693] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T16:03:02.267467 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.267524 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.267585 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.267625 #5693] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T16:03:02.267693 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.267750 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.267810 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.267851 #5693] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T16:03:02.267919 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.267983 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.268044 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.268085 #5693] DEBUG -- : Child row inserted true for option name Cansalada
+D, [2014-12-30T16:03:02.268153 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.268209 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.268269 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.268309 #5693] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T16:03:02.268383 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.268449 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.268510 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.268550 #5693] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:03:02.268639 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.268696 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.268757 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.268800 #5693] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:03:02.268886 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.268954 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.269016 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.269057 #5693] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T16:03:02.269126 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.269183 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.269244 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.269285 #5693] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T16:03:02.269352 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.269420 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.269480 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.269521 #5693] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T16:03:02.269590 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.269647 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.269708 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.270133 #5693] DEBUG -- : Parent index contains 
+D, [2014-12-30T16:03:02.270188 #5693] DEBUG -- : Parent index is valid true
+D, [2014-12-30T16:03:02.270227 #5693] DEBUG -- : Child row inserted true for option name Llom
+D, [2014-12-30T16:03:02.270298 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.270355 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.270416 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.270458 #5693] DEBUG -- : Child row inserted true for option name Carn picada
+D, [2014-12-30T16:03:02.270526 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.270583 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.270644 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.270695 #5693] DEBUG -- : Child row inserted true for option name Botifarra d'ou
+D, [2014-12-30T16:03:02.270764 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.270821 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.270881 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.270921 #5693] DEBUG -- : Child row inserted true for option name Botifarra fetge
+D, [2014-12-30T16:03:02.270989 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.271051 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.271113 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.271165 #5693] DEBUG -- : Child row inserted true for option name Botifarra negra
+D, [2014-12-30T16:03:02.271234 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.271291 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.271351 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.271392 #5693] DEBUG -- : Child row inserted true for option name Botifarra cap
+D, [2014-12-30T16:03:02.271460 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.271539 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.271601 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.271652 #5693] DEBUG -- : Child row inserted true for option name Costelles
+D, [2014-12-30T16:03:02.271721 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.271778 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.271838 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.271878 #5693] DEBUG -- : Child row inserted true for option name Panxeta
+D, [2014-12-30T16:03:02.271952 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.272010 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.272071 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.272123 #5693] DEBUG -- : Child row inserted true for option name Ossos d'espinada
+D, [2014-12-30T16:03:02.272192 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.272249 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.272310 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.272351 #5693] DEBUG -- : Child row inserted true for option name Hamburgueses
+D, [2014-12-30T16:03:02.272419 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.272475 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.272535 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.272576 #5693] DEBUG -- : Child row inserted true for option name Cap de llom
+D, [2014-12-30T16:03:02.272655 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.272711 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.272772 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.272812 #5693] DEBUG -- : Child row inserted true for option name Carn per estofar
+D, [2014-12-30T16:03:02.272880 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.272937 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.272997 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.273038 #5693] DEBUG -- : Child row inserted true for option name Botifarres
+D, [2014-12-30T16:03:02.273115 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.273172 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.273232 #5693] DEBUG -- : Data inserted 
+D, [2014-12-30T16:03:02.273272 #5693] DEBUG -- : Child row inserted true for option name Salsitxes
+D, [2014-12-30T16:03:02.273339 #5693] DEBUG -- : New model index false
+D, [2014-12-30T16:03:02.273395 #5693] DEBUG -- : Data set false
+D, [2014-12-30T16:03:02.273455 #5693] DEBUG -- : Data inserted 
