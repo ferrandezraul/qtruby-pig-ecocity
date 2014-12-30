@@ -1,13 +1,10 @@
-require 'logger'
-
 class ProductsTab < Qt::Widget
 
   def initialize( products, parent = nil )
     super(parent)
-    @log = Logger.new('development.log', 'monthly')
 
     products_model = Qt::StandardItemModel.new( products.length, 7, self )
-    products_model.setHeaderData( 0, Qt::Horizontal, Qt::Variant.new( tr( 'Name' ) ) )
+    products_model.setHeaderData( 0, Qt::Horizontal, Qt::Variant.new( tr( 'Nom' ) ) )
     products_model.setHeaderData( 1, Qt::Horizontal, Qt::Variant.new( tr( 'Preu Tenda' ) ) )
     products_model.setHeaderData( 2, Qt::Horizontal, Qt::Variant.new( tr( 'Preu Coope' ) ) )
     products_model.setHeaderData( 3, Qt::Horizontal, Qt::Variant.new( tr( 'Preu PVP' ) ) )

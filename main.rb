@@ -11,6 +11,8 @@ require 'customer'
 require 'customers_csv'
 require 'customer_helper'
 
+require 'logger'
+
 ORDERS_JSON_PATH = ::File.join( File.dirname( __FILE__ ), "csv/orders.json" )
 PRODUCTS_CSV_PATH = ::File.join( File.dirname( __FILE__ ), "csv/products.csv" )
 CUSTOMERS_CSV_PATH = ::File.join( File.dirname( __FILE__ ), "csv/customers.csv" )
@@ -41,6 +43,7 @@ def load_orders(products, customers)
   end
 end
 
+$log = Logger.new('development.log', 'monthly')
 
 products = load_products
 customers = load_customers

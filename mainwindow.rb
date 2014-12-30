@@ -1,5 +1,5 @@
-
 require 'products_tab'
+require 'customers_tab'
 
 class MainWindow < Qt::MainWindow
 	
@@ -10,7 +10,7 @@ class MainWindow < Qt::MainWindow
 
     @tab_widget = Qt::TabWidget.new
     @tab_widget.addTab( ProductsTab.new( args[:products], self ), tr( 'Productes' ) )
-    #@tab_widget.addTab(CustomersTab.new, tr( 'Clients' ) )
+    @tab_widget.addTab( CustomersTab.new( args[:customers], self ), tr( 'Clients' ) )
     #@tab_widget.addTab(OrdersTab.new, tr( 'Comandes' ) )
 
     setCentralWidget( @tab_widget )
