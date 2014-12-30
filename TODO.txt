@@ -26,7 +26,7 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-Anyadir productos por lote en products tab
+Anyadir productos por lote en products tab . Utiliza QStandardItem::setChild ( int row, int column, QStandardItem * item )
 Clean up code in treemodel?
 Extract code to view??? or delegate??
 Create your own view inhering from Qt::TreeView --> Create ProductsTreeView and add EUR and KG to the columns required
