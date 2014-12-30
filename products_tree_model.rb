@@ -11,11 +11,7 @@ class ProductsTreeModel < Qt::AbstractItemModel
 	end
 	
 	def column_count(parent)
-    if parent.valid?
-      parent.internalPointer.columnCount
-    else
-      @root_item.columnCount
-		end
+    7
   end
 
   # Need to overwrite columnCount but want to follow ruby coding style

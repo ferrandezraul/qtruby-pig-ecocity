@@ -30,7 +30,16 @@ class ProductTreeItem
   alias :columnCount :column_count
 	
 	def data( column )
-    Qt::Variant.new( @item_data[column] )
+    case column
+      when 0
+        Qt::Variant.new( @item_data[column].to_s )
+      when 1
+        Qt::Variant.new( @item_data[column].to_f )
+      when 6
+        Qt::Variant.new( @item_data[column] )
+      else
+        Qt::Variant.new( @item_data[column] )
+    end
 	end
 	
 	def parent
