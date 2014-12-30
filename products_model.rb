@@ -44,12 +44,13 @@ class ProductsModel
       products_model.setItem( row, COLUMN_IVA, item_price_iva )
       products_model.setItem( row, COLUMN_WEIGHT_PER_UNIT, item_weight_per_unit )
 
-      products_model.setData( products_model.index( row, 1 ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
-      products_model.setData( products_model.index( row, 2 ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
-      products_model.setData( products_model.index( row, 3 ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
-      products_model.setData( products_model.index( row, 4 ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
-      products_model.setData( products_model.index( row, 5 ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
-      products_model.setData( products_model.index( row, 6 ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
+      # Align text in columns to the right
+      products_model.setData( products_model.index( row, COLUMN_PRICE_TIENDA ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
+      products_model.setData( products_model.index( row, COLUMN_PRICE_COOPE ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
+      products_model.setData( products_model.index( row, COLUMN_PRICE_PVP ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
+      products_model.setData( products_model.index( row, COLUMN_PRICE_TYPE ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
+      products_model.setData( products_model.index( row, COLUMN_IVA ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
+      products_model.setData( products_model.index( row, COLUMN_WEIGHT_PER_UNIT ), Qt::Variant.fromValue( Qt::AlignRight ), Qt::TextAlignmentRole )
     end
 
     products_model

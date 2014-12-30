@@ -1,7 +1,13 @@
 class CustomersModel
 
+  COLUMN_NAME            = 0
+  COLUMN_ADDRESS         = 1
+  COLUMN_TYPE            = 2
+  COLUMN_NIF             = 3
+  NUMBER_OF_COLUMNS      = 4
+
   def self.get_model( customers, parent )
-    customers_model = Qt::StandardItemModel.new( customers.length, 4, parent )
+    customers_model = Qt::StandardItemModel.new( customers.length, NUMBER_OF_COLUMNS, parent )
     customers_model.setHeaderData( 0, Qt::Horizontal, Qt::Variant.new( 'Nom' ) )
     customers_model.setHeaderData( 1, Qt::Horizontal, Qt::Variant.new( 'Adressa' ) )
     customers_model.setHeaderData( 2, Qt::Horizontal, Qt::Variant.new( 'Tipus' ) )
@@ -13,12 +19,13 @@ class CustomersModel
       item_type = Qt::StandardItem.new( customer.type )
       item_nif = Qt::StandardItem.new( customer.nif )
 
-      # setItem ( int row, QStandardItem * item )
-      customers_model.setItem( row, 0, item_name )
-      customers_model.setItem( row, 1, item_address )
-      customers_model.setItem( row, 2, item_type )
-      customers_model.setItem( row, 3, item_nif )
+      # setItem ( int row, QStandardItem item )
+      customers_model.setItem( row, COLUMN_NAME, item_name )
+      customers_model.setItem( row, COLUMN_ADDRESS, item_address )
+      customers_model.setItem( row, COLUMN_TYPE, item_type )
+      customers_model.setItem( row, COLUMN_NIF, item_nif )
 
+      # Align text in columns to the right
       customers_model.setData( customers_model.index( row, 1 ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
       customers_model.setData( customers_model.index( row, 2 ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
       customers_model.setData( customers_model.index( row, 3 ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
