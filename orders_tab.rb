@@ -1,3 +1,5 @@
+require 'date_dialog'
+
 class OrdersTab < Qt::Widget
 
   slots 'new_order()'
@@ -24,7 +26,9 @@ class OrdersTab < Qt::Widget
   end
 
   def new_order
-    Qt::MessageBox::information( self, tr( 'New order dialog!' ), 'New order')
+    #Qt::MessageBox::information( self, tr( 'New order dialog!' ), 'New order')
+    DateDialog.new( self)
+
   end
 
 end
