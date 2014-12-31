@@ -28,8 +28,10 @@ class CustomerDialog < Qt::Dialog
     connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
   end
 
-  def get_customer
+  def get_customer_name
+    # Get current Qt::Variant
     #@combo_box.itemData( @combo_box.currentIndex )
+
     @combo_box.currentText
   end
 

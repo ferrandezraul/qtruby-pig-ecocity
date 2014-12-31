@@ -48,7 +48,7 @@ class OrdersTab < Qt::Widget
   def get_customer
     customer_dialog = CustomerDialog.new( @customers_model, self)
     if customer_dialog.exec == 1  # if user accepted the dialog
-      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_dialog.get_customer}")
+      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_dialog.get_customer_name}")
     end
   end
 

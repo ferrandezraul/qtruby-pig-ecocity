@@ -24,5 +24,14 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+customer_dialog.get_customer should return a customer object.
+
+Therefore use Qt::Variant !!!
+
+Qt::Variant.fromValue(my_ruby_object)
+
+This might help "Emiting ruby classes":
+https://techbase.kde.org/Development/Languages/Ruby#Build_dependencies
+
 Create new order dialog
 Continue wit customer_dialog
