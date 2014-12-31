@@ -1,4 +1,5 @@
 require 'date_dialog'
+require 'customer_dialog'
 
 class OrdersTab < Qt::Widget
 
@@ -26,13 +27,27 @@ class OrdersTab < Qt::Widget
   end
 
   def new_order
-    #Qt::MessageBox::information( self, tr( 'New order dialog!' ), 'New order')
-    date = DateDialog.new(self)
+    date = get_date
+    #customer = get_customer
+    #line_items = get_line_items
+  end
 
-    if date.exec == 1  # if user accepted the dialog
-      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date.get_date.toString}")
+  def get_date
+    date_dialog = DateDialog.new(self)
+    if date_dialog.exec == 1  # if user accepted the dialog
+      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date_dialog.get_date.toString}")
+
+      date_dialog.get_date
+    else
+      Qt::Date.new
     end
+  end
 
+  def get_customer
+    customer_dialog = CustomerDialog.new(self)
+    if customer_dialog.exec == 1  # if user accepted the dialog
+      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_dialog.get_customer.name}")
+    end
   end
 
 end
