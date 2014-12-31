@@ -29,7 +29,8 @@ class CustomerDialog < Qt::Dialog
   end
 
   def get_customer
-    @combo_box.itemData( @combo_box.currentIndex )
+    #@combo_box.itemData( @combo_box.currentIndex )
+    @combo_box.currentText
   end
 
 end
