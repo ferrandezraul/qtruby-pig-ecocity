@@ -4,9 +4,7 @@ class CustomerDialog < Qt::Dialog
 
   slots 'accept()', 'reject()'
 
-  attr_reader :dateEdit
-
-  def initialize( customers, parent = nil )
+  def initialize( customers_model, parent = nil )
     super( parent )
 
     self.windowTitle = 'Selecciona el client'
@@ -14,13 +12,15 @@ class CustomerDialog < Qt::Dialog
     @label = Qt::Label.new
 
     # ComboBox
+    @combo_box = Qt::ComboBox.new
+    @combo_box.setModel( customers_model )
 
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget(@label)
-
+      g.addWidget(@combo_box)
       g.addWidget(@button_box)
     end
 
@@ -29,7 +29,7 @@ class CustomerDialog < Qt::Dialog
   end
 
   def get_customer
-    # Return customer
+    @combo_box.itemData( @combo_box.currentIndex )
   end
 
 end

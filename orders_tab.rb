@@ -5,18 +5,20 @@ class OrdersTab < Qt::Widget
 
   slots 'new_order()'
 
-  def initialize( orders_model, parent = nil )
+  def initialize( customers_model, orders_model, parent = nil )
     super(parent)
 
+    @customers_model = customers_model
+
     button = Qt::PushButton.new( tr( 'Nova comanda' ) )
-    view = Qt::TreeView.new
-    view.model = orders_model
-    view.windowTitle = 'Orders Tree Model'
-    view.show
+    orders_tree_view = Qt::TreeView.new
+    orders_tree_view.model = orders_model
+    orders_tree_view.windowTitle = 'Orders Tree Model'
+    orders_tree_view.show
 
     self.layout = Qt::VBoxLayout.new do |m|
       m.addWidget( button )
-      m.addWidget( view )
+      m.addWidget( orders_tree_view )
 
       # Add spacer
       #m.addStretch( 1 )
@@ -28,7 +30,7 @@ class OrdersTab < Qt::Widget
 
   def new_order
     date = get_date
-    #customer = get_customer
+    customer = get_customer
     #line_items = get_line_items
   end
 
@@ -44,7 +46,7 @@ class OrdersTab < Qt::Widget
   end
 
   def get_customer
-    customer_dialog = CustomerDialog.new(self)
+    customer_dialog = CustomerDialog.new( @customers_model, self)
     if customer_dialog.exec == 1  # if user accepted the dialog
       Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_dialog.get_customer.name}")
     end
