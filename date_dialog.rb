@@ -4,32 +4,34 @@ class DateDialog < Qt::Dialog
 
   slots 'accept()', 'reject()'
 
-  attr_reader :dateEdit
+  attr_reader :date_edit
 
   def initialize( parent = nil )
     super( parent )
 
-    @label = Qt::Label.new
+    self.windowTitle = 'Selecciona la data'
 
-    @dateEdit = Qt::DateEdit.new( Qt::Date::currentDate)
-    @dateEdit.calendarPopup = true
+    @label = Qt::Label.new( tr( 'Selecciona la data de la comanda' ))
 
-    @buttonBox = Qt::DialogButtonBox.new
+    @date_edit = Qt::DateEdit.new( Qt::Date::currentDate)
+    @date_edit.calendarPopup = true
 
-    @buttonBox.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
+    @button_box = Qt::DialogButtonBox.new
+
+    @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget(@label)
-      g.addWidget(@dateEdit)
-      g.addWidget(@buttonBox)
+      g.addWidget(@date_edit)
+      g.addWidget(@button_box)
     end
 
-    connect(@buttonBox, SIGNAL('accepted()'), self, SLOT('accept()'))
-    connect(@buttonBox, SIGNAL('rejected()'), self, SLOT('reject()'))
+    connect(@button_box, SIGNAL('accepted()'), self, SLOT('accept()'))
+    connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
   end
 
   def get_date
-    @dateEdit.date
+    @date_edit.date
   end
 
 end

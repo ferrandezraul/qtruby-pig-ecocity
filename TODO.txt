@@ -25,4 +25,4 @@ function rbuic4() {
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Create new order dialog
-date dialog which should be a class method (no instance method DateDialog.get_date similar to MessageBox )
+Continue wit customer_dialog

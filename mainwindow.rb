@@ -13,6 +13,8 @@ class MainWindow < Qt::MainWindow
 	def initialize( args )
 		super(nil)
 
+    self.windowTitle = 'Ecocity Porc'
+
     @products_model = ProductsModel.get_model( args[:products], self )
     @customers_model = CustomersModel.get_model( args[:customers], self )
     @orders_model = OrdersModel.get_model( args[:orders], self )
