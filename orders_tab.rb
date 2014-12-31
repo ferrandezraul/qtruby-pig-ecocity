@@ -30,25 +30,29 @@ class OrdersTab < Qt::Widget
 
   def new_order
     date = get_date
-    customer = get_customer
+    Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date.toString}")
+
+    customer_name = get_customer_name
+    Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_name}")
+
     #line_items = get_line_items
   end
 
   def get_date
     date_dialog = DateDialog.new(self)
     if date_dialog.exec == 1  # if user accepted the dialog
-      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date_dialog.get_date.toString}")
-
       date_dialog.get_date
     else
       Qt::Date.new
     end
   end
 
-  def get_customer
+  def get_customer_name
     customer_dialog = CustomerDialog.new( @customers_model, self)
     if customer_dialog.exec == 1  # if user accepted the dialog
-      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_dialog.get_customer_name}")
+      customer_dialog.get_customer_name
+    else
+      String.new
     end
   end
 
