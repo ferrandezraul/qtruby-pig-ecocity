@@ -7,7 +7,7 @@ class OrdersTab < Qt::Widget
   def initialize( orders_model, parent = nil )
     super(parent)
 
-    button = Qt::PushButton.new( tr( "Nova comanda" ) )
+    button = Qt::PushButton.new( tr( 'Nova comanda' ) )
     view = Qt::TreeView.new
     view.model = orders_model
     view.windowTitle = 'Orders Tree Model'
@@ -27,8 +27,8 @@ class OrdersTab < Qt::Widget
 
   def new_order
     #Qt::MessageBox::information( self, tr( 'New order dialog!' ), 'New order')
-    DateDialog.new( self)
-
+    date = DateDialog.new( self )
+    date.show
   end
 
 end
