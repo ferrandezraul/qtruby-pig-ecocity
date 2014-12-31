@@ -1,6 +1,6 @@
 require 'Qt'
 
-class DateDialog < Qt::Widget
+class DateDialog < Qt::Dialog
 
   slots 'accept()', 'reject()'
 
@@ -27,12 +27,8 @@ class DateDialog < Qt::Widget
     connect(@buttonBox, SIGNAL('rejected()'), self, SLOT('reject()'))
   end
 
-  def accept
-    Qt::MessageBox::information( self, tr( 'New order dialog!' ), 'New order')
-  end
-
-  def reject
-    Qt::MessageBox::information( self, tr( 'New order dialog!' ), 'New order')
+  def get_date
+    @dateEdit.to_s
   end
 
 end
