@@ -30,7 +30,7 @@ class OrdersTab < Qt::Widget
     date = DateDialog.new(self)
 
     if date.exec == 1  # if user accepted the dialog
-      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date.get_date}")
+      Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date.get_date.toString}")
     end
 
   end

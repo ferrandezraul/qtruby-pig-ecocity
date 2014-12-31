@@ -11,7 +11,8 @@ class DateDialog < Qt::Dialog
 
     @label = Qt::Label.new
 
-    @dateEdit = Qt::DateEdit.new
+    @dateEdit = Qt::DateEdit.new( Qt::Date::currentDate)
+    @dateEdit.calendarPopup = true
 
     @buttonBox = Qt::DialogButtonBox.new
 
@@ -28,7 +29,7 @@ class DateDialog < Qt::Dialog
   end
 
   def get_date
-    @dateEdit.to_s
+    @dateEdit.date
   end
 
 end
