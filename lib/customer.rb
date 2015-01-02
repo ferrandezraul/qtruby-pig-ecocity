@@ -1,10 +1,13 @@
-class Customer
+require 'Qt'
+
+class Customer < Qt::Object
   attr_reader :name
   attr_reader :address
   attr_reader :type
   attr_reader :nif
 
   def initialize(params)
+    super(nil)
 
     raise "Wrong customer type found" unless params[:type] =~ /CLIENT|COOPE|TIENDA/
 

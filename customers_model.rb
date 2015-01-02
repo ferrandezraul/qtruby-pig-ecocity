@@ -19,6 +19,8 @@ class CustomersModel
       item_type = Qt::StandardItem.new( customer.type )
       item_nif = Qt::StandardItem.new( customer.nif )
 
+      item_name.setData( Qt::Variant.from_value( customer ) )
+
       # setItem ( int row, QStandardItem item )
       customers_model.setItem( row, COLUMN_NAME, item_name )
       customers_model.setItem( row, COLUMN_ADDRESS, item_address )
