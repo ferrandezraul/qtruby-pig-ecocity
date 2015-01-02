@@ -8,3 +8,13 @@ For installation, you need to install cmake, otherwise gem install qtbindings wi
 or also use tool rbqtapi
 i.e. rbqtapi Qt::TextEdit
 Will list all the methods in the Qt::TextEdit class
+
+
+/////////////////////////////////////////////////////////////////////////////////////////
+
+My classes Customer, Product, etc ... all inherit QObject
+Note that you need to call super(nil) in initilization!
+Therefore I can use those classes as Qt::Variant and widgets can emit
+Qt::Variant::fromValue(ruby_object)
+Afterwards I get the ruby object with Qt::Variant.value
+

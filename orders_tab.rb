@@ -6,11 +6,11 @@ class OrdersTab < Qt::Widget
 
   slots 'new_order()'
 
-  def initialize( products_model, customers_model, orders_model, parent = nil )
+  def initialize( products, customers, orders_model, parent = nil )
     super(parent)
 
-    @customers_model = customers_model
-    @products_model = products_model
+    @customers = customers
+    @products = products
 
     button = Qt::PushButton.new( tr( 'Nova comanda' ) )
     orders_tree_view = Qt::TreeView.new
@@ -32,13 +32,9 @@ class OrdersTab < Qt::Widget
 
   def new_order
     date = get_date
-    Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{date.toString}" )
+    customer = get_customer
 
-    customer_name = get_customer
-    Qt::MessageBox::information( self, tr( 'foo' ), "Returned class #{customer_name.class}" )
-    Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{customer_name.name }" )
-
-    #line_items = get_line_items
+    line_items = get_line_items( customer )
     #Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{line_items.size} items" )
   end
 
@@ -52,7 +48,7 @@ class OrdersTab < Qt::Widget
   end
 
   def get_customer
-    customer_dialog = CustomerDialog.new( @customers_model, self)
+    customer_dialog = CustomerDialog.new( @customers, self)
     if customer_dialog.exec == 1  # if user accepted the dialog
       customer_dialog.get_customer
     else
@@ -60,8 +56,8 @@ class OrdersTab < Qt::Widget
     end
   end
 
-  def get_line_items
-    line_items_dialog = LineItemsDialog.new( @products_model, customer, self )
+  def get_line_items( customer )
+    line_items_dialog = LineItemsDialog.new( @products, customer, self )
     if line_items_dialog.exec == 1
       line_items_dialog.get_line_items
     else

@@ -1,9 +1,13 @@
-class SubProduct
+require 'Qt'
+
+class SubProduct  < Qt::Object
   attr_reader :name
   attr_reader :weight
   attr_reader :quantity
 
   def initialize(params)
+    super( nil )
+
     @name = params[:name]
     @weight = params[:weight]
     @quantity = params[:quantity]

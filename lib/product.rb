@@ -1,4 +1,6 @@
-class Product
+require 'Qt'
+
+class Product < Qt::Object
   attr_reader :name
   attr_reader :price_tienda
   attr_reader :price_coope
@@ -15,6 +17,8 @@ class Product
   end
 
   def initialize(params)
+    super( nil )  # Need to initilialize Qt::Object
+
     raise "Invalid price_type #{params[:price_type]}." unless validate_price_type?(params[:price_type])
 
     @name = params[:name]

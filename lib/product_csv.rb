@@ -104,7 +104,7 @@ class ProductCSV
   # [ { :weight => 0,5, :name => "Llom", :product => product_object_llom },
   #   { :weight => 0,4, :name => "Carn picada", :product => product_object_carn_picada } ]
   def self.get_subproducts_attributes( product_attributes )
-    subproducts = []
+    subproducts = Array.new
     if !has_subproducts?( product_attributes )
       return subproducts
     end
@@ -138,8 +138,8 @@ class ProductCSV
   # returns ["Botifarra","Costelles"]
   def self.split_subproducts_names( name )
     names = []
-    if name.include?("|")
-      names = name.split("|")
+    if name.include?( '|' )
+      names = name.split( '|' )
     else
       names << name
     end

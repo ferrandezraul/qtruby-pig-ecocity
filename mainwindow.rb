@@ -22,7 +22,7 @@ class MainWindow < Qt::MainWindow
     @tab_widget = Qt::TabWidget.new
     @tab_widget.addTab( ProductsTab.new( @products_model, self ), tr( 'Productes' ) )
     @tab_widget.addTab( CustomersTab.new( @customers_model, self ), tr( 'Clients' ) )
-    @tab_widget.addTab( OrdersTab.new( @products_model, @customers_model, @orders_model, self ), tr( 'Comandes' ) )
+    @tab_widget.addTab( OrdersTab.new( args[:products], args[:customers], @orders_model, self ), tr( 'Comandes' ) )
 
     setCentralWidget( @tab_widget )
 
