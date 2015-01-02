@@ -13,10 +13,12 @@ class LineItemsDialog < Qt::Dialog
 
     @customer_label = Qt::Label.new( "#{customer.name}\n#{customer.address}\n#{customer.nif}" )
 
+    @quantity_label = Qt::Label.new( 'Quantitat:' )
     @quantity_spin_box = Qt::SpinBox.new
 
+    @weight_label = Qt::Label.new( 'Pes (kg):' )
     @weight_spin_box = Qt::DoubleSpinBox.new
-    @weight_label = Qt::Label.new( 'Kg' )
+    @kg_label = Qt::Label.new( 'Kg' )
 
     # ComboBox
     @combo_box = Qt::ComboBox.new
@@ -33,9 +35,11 @@ class LineItemsDialog < Qt::Dialog
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
     item_layout = Qt::HBoxLayout.new do |b|
+      b.addWidget(@quantity_label)
       b.addWidget(@quantity_spin_box)
-      b.addWidget(@weight_spin_box)
       b.addWidget(@weight_label)
+      b.addWidget(@weight_spin_box)
+      b.addWidget(@kg_label)
       b.addWidget(@combo_box)
     end
 
