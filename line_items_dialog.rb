@@ -7,29 +7,29 @@ class LineItemsDialog < Qt::Dialog
   def initialize( products, customer, parent = nil )
     super( parent )
 
-    @line_items = Array.new
-
     self.windowTitle = 'Selecciona els productes'
+
+    @line_items = Array.new
 
     @customer_label = Qt::Label.new( "#{customer.name}\n#{customer.address}\n#{customer.nif}" )
 
     @quantity_label = Qt::Label.new( 'Quantitat:' )
     @quantity_spin_box = Qt::SpinBox.new
 
-    @weight_label = Qt::Label.new( 'Pes (kg):' )
+    @weight_label = Qt::Label.new( 'Pes:' )
     @weight_spin_box = Qt::DoubleSpinBox.new
-    @kg_label = Qt::Label.new( 'Kg' )
+    @weight_spin_box.setDecimals( 3 )
+    @weight_spin_box.setSuffix( ' kg' )
 
-    # ComboBox
+    # Products ComboBox
     @combo_box = Qt::ComboBox.new
-
     products.each do | product |
       @combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
     end
 
     @button_add_item = Qt::PushButton.new( 'Afegir producte' )
 
-    @line_items_view = Qt::PlainTextEdit.new( ' ' )
+    @line_items_view = Qt::PlainTextEdit.new( String.new )
 
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
@@ -39,7 +39,6 @@ class LineItemsDialog < Qt::Dialog
       b.addWidget(@quantity_spin_box)
       b.addWidget(@weight_label)
       b.addWidget(@weight_spin_box)
-      b.addWidget(@kg_label)
       b.addWidget(@combo_box)
     end
 
