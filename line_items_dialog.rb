@@ -1,5 +1,7 @@
 require 'Qt'
 
+require 'order_item'
+
 class LineItemsDialog < Qt::Dialog
 
   slots 'accept()', 'reject()',
@@ -9,6 +11,8 @@ class LineItemsDialog < Qt::Dialog
     super( parent )
 
     self.windowTitle = 'Selecciona els productes'
+
+    @customer = customer
 
     @line_items = Array.new
 
@@ -63,6 +67,13 @@ class LineItemsDialog < Qt::Dialog
 
   def add_product_to_line_items
     Qt::MessageBox::information( self, tr( 'foo' ), "TODO!!" )
+
+    product = @combo_box.itemData( @combo_box.currentIndex ).value
+
+    # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
+    order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, Array.new )
+
+    @line_items_view.appendPlainText( order_item.to_s)
   end
 
   def update_weight( index )
