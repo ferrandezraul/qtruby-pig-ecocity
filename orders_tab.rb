@@ -18,12 +18,15 @@ class OrdersTab < Qt::Widget
     orders_tree_view.windowTitle = 'Orders Tree Model'
     orders_tree_view.show
 
-    self.layout = Qt::VBoxLayout.new do |m|
+    h_layout = Qt::HBoxLayout.new do |m|
       m.addWidget( button )
-      m.addWidget( orders_tree_view )
-
       # Add spacer
-      #m.addStretch( 1 )
+      m.addStretch( 1 )
+    end
+
+    self.layout = Qt::VBoxLayout.new do |m|
+      m.addLayout( h_layout )
+      m.addWidget( orders_tree_view )
     end
 
     connect( button, SIGNAL( 'clicked()' ), self, SLOT( 'new_order()' ) )

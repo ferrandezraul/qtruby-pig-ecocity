@@ -2,7 +2,8 @@ require 'Qt'
 
 class LineItemsDialog < Qt::Dialog
 
-  slots 'accept()', 'reject()', 'add_product_to_line_items()', 'update_weight(int)'
+  slots 'accept()', 'reject()',
+        'add_product_to_line_items()', 'update_weight(int)'
 
   def initialize( products, customer, parent = nil )
     super( parent )
@@ -40,12 +41,12 @@ class LineItemsDialog < Qt::Dialog
       b.addWidget(@weight_label)
       b.addWidget(@weight_spin_box)
       b.addWidget(@combo_box)
+      b.addWidget(@button_add_item)
     end
 
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget(@customer_label)
       g.addLayout(item_layout)
-      g.addWidget(@button_add_item)
       g.addWidget(@line_items_view)
       g.addWidget(@button_box)
     end
