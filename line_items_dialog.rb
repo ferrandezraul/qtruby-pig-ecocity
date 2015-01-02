@@ -32,12 +32,16 @@ class LineItemsDialog < Qt::Dialog
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
+    item_layout = Qt::HBoxLayout.new do |b|
+      b.addWidget(@quantity_spin_box)
+      b.addWidget(@weight_spin_box)
+      b.addWidget(@weight_label)
+      b.addWidget(@combo_box)
+    end
+
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget(@customer_label)
-      g.addWidget(@quantity_spin_box)
-      g.addWidget(@weight_spin_box)
-      g.addWidget(@weight_label)
-      g.addWidget(@combo_box)
+      g.addLayout(item_layout)
       g.addWidget(@button_add_item)
       g.addWidget(@line_items_view)
       g.addWidget(@button_box)
