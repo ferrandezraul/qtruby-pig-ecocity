@@ -2,7 +2,7 @@ require 'Qt'
 
 class LineItemsDialog < Qt::Dialog
 
-  slots 'accept()', 'reject()', 'add_product_to_line_items()'
+  slots 'accept()', 'reject()', 'add_product_to_line_items()', 'update_weight(int)'
 
   def initialize( products, customer, parent = nil )
     super( parent )
@@ -53,6 +53,7 @@ class LineItemsDialog < Qt::Dialog
     connect(@button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()'))
     connect(@button_box, SIGNAL('accepted()'), self, SLOT('accept()'))
     connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
+    connect(@combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight(int)') )
   end
 
   def get_line_items
@@ -61,6 +62,13 @@ class LineItemsDialog < Qt::Dialog
 
   def add_product_to_line_items
     Qt::MessageBox::information( self, tr( 'foo' ), "TODO!!" )
+  end
+
+  def update_weight( index )
+    product = @combo_box.itemData( index ).value
+    if product.weight_per_unit > 0
+      @weight_spin_box.setValue( product.weight_per_unit )
+    end
   end
 
 end
