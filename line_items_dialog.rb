@@ -108,7 +108,7 @@ class LineItemsDialog < Qt::Dialog
       # TODO Create modal dialog to Show and select options
       options_dialog = ProductOptionsDialog.new( product.options, product.weight_per_unit, self )
       if options_dialog.exec == 1
-        options = options_dialog.get_options
+        options = options_dialog.get_selected_options
         Qt::MessageBox::information( self, tr( 'foo' ), "Opcions seleccionades #{options.each { |option| option.name } }" )
       end
 

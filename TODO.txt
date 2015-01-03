@@ -26,8 +26,7 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-Lay out line items dialog properly
-
+In product options dialog, Display total weight selected and total weight needed to be more clear for user
 
 Line Items dialog should return line item objects.
 Use Qt::Variant !!!
