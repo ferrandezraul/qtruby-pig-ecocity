@@ -10,18 +10,18 @@ class CustomerDialog < Qt::Dialog
     self.windowTitle = 'Selecciona el client'
 
     # ComboBox
-    @combo_box = Qt::ComboBox.new
+    @products_combo_box = Qt::ComboBox.new
     #@combo_box.setModel( customers_model )
 
     customers.each do | customer |
-      @combo_box.addItem( customer.name, Qt::Variant.from_value( customer ) )
+      @products_combo_box.addItem( customer.name, Qt::Variant.from_value( customer ) )
     end
 
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
     self.layout = Qt::VBoxLayout.new do |g|
-      g.addWidget(@combo_box)
+      g.addWidget(@products_combo_box)
       g.addWidget(@button_box)
     end
 
@@ -31,7 +31,7 @@ class CustomerDialog < Qt::Dialog
 
   def get_customer
     # Get current Qt::Variant
-    @combo_box.itemData( @combo_box.currentIndex ).value
+    @products_combo_box.itemData( @products_combo_box.currentIndex ).value
   end
 
 end

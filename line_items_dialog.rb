@@ -5,7 +5,9 @@ require 'order_item'
 class LineItemsDialog < Qt::Dialog
 
   slots 'accept()', 'reject()',
-        'add_product_to_line_items()', 'update_weight(int)'
+        'add_product_to_line_items()',
+        'update_weight_for_index(int)',
+        'show_subproducts_for_index(int)'
 
   def initialize( products, customer, parent = nil )
     super( parent )
@@ -27,9 +29,9 @@ class LineItemsDialog < Qt::Dialog
     @weight_spin_box.setSuffix( ' kg' )
 
     # Products ComboBox
-    @combo_box = Qt::ComboBox.new
+    @products_combo_box = Qt::ComboBox.new
     products.each do | product |
-      @combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
+      @products_combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
     end
 
     @button_add_item = Qt::PushButton.new( 'Afegir producte' )
@@ -46,7 +48,7 @@ class LineItemsDialog < Qt::Dialog
       b.addWidget(@quantity_spin_box)
       b.addWidget(@weight_label)
       b.addWidget(@weight_spin_box)
-      b.addWidget(@combo_box)
+      b.addWidget(@products_combo_box)
       b.addWidget(@button_add_item)
     end
 
@@ -63,10 +65,11 @@ class LineItemsDialog < Qt::Dialog
       g.addWidget(@button_box)
     end
 
-    connect(@button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()'))
+    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('show_subproducts_for_index(int)') )
+    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight_for_index(int)') )
     connect(@button_box, SIGNAL('accepted()'), self, SLOT('accept()'))
     connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
-    connect(@combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight(int)') )
+    connect(@button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()'))
   end
 
   def get_line_items
@@ -74,9 +77,7 @@ class LineItemsDialog < Qt::Dialog
   end
 
   def add_product_to_line_items
-    Qt::MessageBox::information( self, tr( 'foo' ), "TODO!!" )
-
-    product = @combo_box.itemData( @combo_box.currentIndex ).value
+    product = @products_combo_box.itemData( @products_combo_box.currentIndex ).value
 
     # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
     order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, Array.new )
@@ -93,10 +94,18 @@ class LineItemsDialog < Qt::Dialog
 
   end
 
-  def update_weight( index )
-    product = @combo_box.itemData( index ).value
+  def update_weight_for_index( index )
+    product = @products_combo_box.itemData( index ).value
     if product.weight_per_unit > 0
       @weight_spin_box.setValue( product.weight_per_unit )
+    end
+  end
+
+  def show_subproducts_for_index( index )
+    product = @products_combo_box.itemData( index ).value
+    if product.has_options?
+      # TODO Create modal dialog to Show and select options
+      Qt::MessageBox::information( self, tr( 'foo' ), "TODO: Show options!!" )
     end
   end
 
