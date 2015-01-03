@@ -34,6 +34,7 @@ class LineItemsDialog < Qt::Dialog
 
     @button_add_item = Qt::PushButton.new( 'Afegir producte' )
 
+    @resume_group_box = Qt::GroupBox.new( tr( 'Productes' ) )
     @line_items_label = Qt::Label.new
     @line_items_label.setAlignment( Qt::AlignRight)
 
@@ -49,10 +50,16 @@ class LineItemsDialog < Qt::Dialog
       b.addWidget(@button_add_item)
     end
 
+    resume_layout = Qt::HBoxLayout.new do |b|
+      b.addWidget(@line_items_label)
+    end
+
+    @resume_group_box.layout = resume_layout
+
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget(@customer_label)
       g.addLayout(item_layout)
-      g.addWidget(@line_items_label)
+      g.addWidget(@resume_group_box)
       g.addWidget(@button_box)
     end
 
