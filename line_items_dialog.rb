@@ -34,7 +34,8 @@ class LineItemsDialog < Qt::Dialog
 
     @button_add_item = Qt::PushButton.new( 'Afegir producte' )
 
-    @line_items_view = Qt::PlainTextEdit.new( String.new )
+    @line_items_label = Qt::Label.new
+    @line_items_label.setAlignment( Qt::AlignRight)
 
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
@@ -51,7 +52,7 @@ class LineItemsDialog < Qt::Dialog
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget(@customer_label)
       g.addLayout(item_layout)
-      g.addWidget(@line_items_view)
+      g.addWidget(@line_items_label)
       g.addWidget(@button_box)
     end
 
@@ -73,7 +74,16 @@ class LineItemsDialog < Qt::Dialog
     # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
     order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, Array.new )
 
-    @line_items_view.appendPlainText( order_item.to_s)
+    resume = @line_items_label.text
+
+    if resume
+      resume << "\n"
+      resume << order_item.to_s
+      @line_items_label.setText( resume )
+    else
+      @line_items_label.setText( order_item.to_s )
+    end
+
   end
 
   def update_weight( index )
