@@ -1,6 +1,7 @@
 require 'Qt'
 
 require 'order_item'
+require 'product_options_dialog'
 
 class LineItemsDialog < Qt::Dialog
 
@@ -105,7 +106,12 @@ class LineItemsDialog < Qt::Dialog
     product = @products_combo_box.itemData( index ).value
     if product.has_options?
       # TODO Create modal dialog to Show and select options
-      Qt::MessageBox::information( self, tr( 'foo' ), "TODO: Show options!!" )
+      options_dialog = ProductOptionsDialog.new( product.options, product.weight_per_unit, self )
+      if options_dialog.exec == 1
+        options = options_dialog.get_options
+        Qt::MessageBox::information( self, tr( 'foo' ), "Opcions seleccionades #{options.each { |option| option.name } }" )
+      end
+
     end
   end
 
