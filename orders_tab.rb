@@ -1,6 +1,10 @@
 require 'date_dialog'
 require 'customer_dialog'
 require 'line_items_dialog'
+require 'orders_model'
+
+require 'order'
+require 'ap'
 
 class OrdersTab < Qt::Widget
 
@@ -11,10 +15,11 @@ class OrdersTab < Qt::Widget
 
     @customers = customers
     @products = products
+    @orders_model = orders_model
 
     button = Qt::PushButton.new( tr( 'Nova comanda' ) )
     orders_tree_view = Qt::TreeView.new
-    orders_tree_view.model = orders_model
+    orders_tree_view.model = @orders_model
     orders_tree_view.windowTitle = 'Orders Tree Model'
     orders_tree_view.show
 
@@ -36,9 +41,10 @@ class OrdersTab < Qt::Widget
   def new_order
     date = get_date
     customer = get_customer
-
     line_items = get_line_items( customer )
-    #Qt::MessageBox::information( self, tr( 'foo' ), "Returned #{line_items.size} items" )
+
+    order = Order.new( customer, date, line_items )
+    OrdersModel.add_order_to_model( order, @orders_model )
   end
 
   def get_date

@@ -1,3 +1,5 @@
+require 'ap'
+
 class OrdersModel
 
   COLUMN_DATE                 = 0
@@ -9,35 +11,47 @@ class OrdersModel
   NUMBER_OF_COLUMNS           = 5
 
   def self.get_model( orders, parent )
-    customers_model = Qt::StandardItemModel.new( orders.length, NUMBER_OF_COLUMNS, parent )
-    customers_model.setHeaderData( COLUMN_DATE, Qt::Horizontal, Qt::Variant.new( 'Data' ) )
-    customers_model.setHeaderData( COLUMN_CUSTOMER, Qt::Horizontal, Qt::Variant.new( 'Client' ) )
-    customers_model.setHeaderData( COLUMN_TOTAL_WITHOUT_TAXES, Qt::Horizontal, Qt::Variant.new( 'Total sense IVA' ) )
-    customers_model.setHeaderData( COLUMN_TAXES, Qt::Horizontal, Qt::Variant.new( 'IVA' ) )
-    customers_model.setHeaderData( COLUMN_TOTAL, Qt::Horizontal, Qt::Variant.new( 'Total' ) )
+    orders_model = Qt::StandardItemModel.new( 0, NUMBER_OF_COLUMNS, parent )
+    orders_model.setHeaderData( COLUMN_DATE, Qt::Horizontal, Qt::Variant.new( 'Data' ) )
+    orders_model.setHeaderData( COLUMN_CUSTOMER, Qt::Horizontal, Qt::Variant.new( 'Client' ) )
+    orders_model.setHeaderData( COLUMN_TOTAL_WITHOUT_TAXES, Qt::Horizontal, Qt::Variant.new( 'Total sense IVA' ) )
+    orders_model.setHeaderData( COLUMN_TAXES, Qt::Horizontal, Qt::Variant.new( 'IVA' ) )
+    orders_model.setHeaderData( COLUMN_TOTAL, Qt::Horizontal, Qt::Variant.new( 'Total' ) )
 
-    orders.each_with_index do | order, row |
-      item_customer_name = Qt::StandardItem.new( order.customer.name )
-      item_date = Qt::StandardItem.new( order.date )
-      item_total_without_taxes = Qt::StandardItem.new( order.total_without_taxes )
-      item_taxes = Qt::StandardItem.new( order.taxes )
-      item_total = Qt::StandardItem.new( order.total )
-
-      # setItem ( int row, QStandardItem item )
-      customers_model.setItem( row, COLUMN_DATE, item_date )
-      customers_model.setItem( row, COLUMN_CUSTOMER, item_customer_name )
-      customers_model.setItem( row, COLUMN_TOTAL_WITHOUT_TAXES, item_total_without_taxes )
-      customers_model.setItem( row, COLUMN_TAXES, item_taxes )
-      customers_model.setItem( row, COLUMN_TOTAL, item_total )
-
-      # Align text in columns to the right
-      customers_model.setData( customers_model.index( row, COLUMN_CUSTOMER ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
-      customers_model.setData( customers_model.index( row, COLUMN_TOTAL_WITHOUT_TAXES ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
-      customers_model.setData( customers_model.index( row, COLUMN_TAXES ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
-      customers_model.setData( customers_model.index( row, COLUMN_TOTAL ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
+    orders.each do | order |
+      add_order_to_model(order, orders_model)
     end
 
-    customers_model
+    orders_model
+  end
+
+  def self.add_order_to_model( order, model )
+    #item_customer_name = Qt::StandardItem.new( order.customer.name )
+    #item_date = Qt::StandardItem.new( order.date )
+    #item_total_without_taxes = Qt::StandardItem.new( order.total_without_taxes )
+    #item_taxes = Qt::StandardItem.new( order.taxes )
+    #item_total = Qt::StandardItem.new( order.total )
+
+    item_customer_name = Qt::StandardItem.new( "foo" )
+    item_date = Qt::StandardItem.new( "foo" )
+    item_total_without_taxes = Qt::StandardItem.new( "foo" )
+    item_taxes = Qt::StandardItem.new( "foo" )
+    item_total = Qt::StandardItem.new( "foo" )
+
+    row = model.rowCount
+
+    # setItem ( int row, QStandardItem item )
+    model.setItem( row, COLUMN_DATE, item_date )
+    model.setItem( row, COLUMN_CUSTOMER, item_customer_name )
+    model.setItem( row, COLUMN_TOTAL_WITHOUT_TAXES, item_total_without_taxes )
+    model.setItem( row, COLUMN_TAXES, item_taxes )
+    model.setItem( row, COLUMN_TOTAL, item_total )
+
+    # Align text in columns to the right
+    model.setData( model.index( row, COLUMN_CUSTOMER ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
+    model.setData( model.index( row, COLUMN_TOTAL_WITHOUT_TAXES ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
+    model.setData( model.index( row, COLUMN_TAXES ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
+    model.setData( model.index( row, COLUMN_TOTAL ), Qt::Variant.fromValue(Qt::AlignRight), Qt::TextAlignmentRole )
   end
 
 end

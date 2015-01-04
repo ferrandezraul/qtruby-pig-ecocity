@@ -26,7 +26,9 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-In product options dialog, Display total weight selected and total weight needed to be more clear for user
+Refactor a bit
+Validate quantity before adding order item
+Validate weight?
 
 Line Items dialog should return line item objects.
 Use Qt::Variant !!!

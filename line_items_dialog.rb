@@ -82,17 +82,8 @@ class LineItemsDialog < Qt::Dialog
 
     # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
     order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, Array.new )
-
-    resume = @line_items_label.text
-
-    if resume
-      resume << "\n"
-      resume << order_item.to_s
-      @line_items_label.setText( resume )
-    else
-      @line_items_label.setText( order_item.to_s )
-    end
-
+    @line_items << order_item
+    add_order_item_to_view( order_item )
   end
 
   def update_weight_for_index( index )
@@ -105,13 +96,32 @@ class LineItemsDialog < Qt::Dialog
   def show_subproducts_for_index( index )
     product = @products_combo_box.itemData( index ).value
     if product.has_options?
-      # TODO Create modal dialog to Show and select options
       options_dialog = ProductOptionsDialog.new( product.options, product.weight_per_unit, self )
       if options_dialog.exec == 1
         options = options_dialog.get_selected_options
-        Qt::MessageBox::information( self, tr( 'foo' ), "Opcions seleccionades #{options.each { |option| option.name } }" )
+        product = @products_combo_box.itemData( @products_combo_box.currentIndex ).value
+
+        # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
+        order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, options )
+        @line_items << order_item
+        add_order_item_to_view( order_item )
+
+        # TODO Update views in MainWindow (emit signal??)
+        #Qt::MessageBox::information( self, tr( 'foo' ), "Opcions seleccionades #{options.each { |option| option.name } }" )
       end
 
+    end
+  end
+
+  def add_order_item_to_view( order_item )
+    resume = @line_items_label.text
+
+    if resume
+      resume << "\n"
+      resume << order_item.to_s
+      @line_items_label.setText( resume )
+    else
+      @line_items_label.setText( order_item.to_s )
     end
   end
 
