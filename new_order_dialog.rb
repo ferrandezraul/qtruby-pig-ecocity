@@ -12,8 +12,10 @@ class NewOrderDialog < Qt::Widget
 
     get_date
     get_customer( customers ) if @date
-    get_line_items(@customer, products) if customer
+    get_line_items(@customer, products) if @customer
   end
+
+  private
 
   # Returns a Qt::Date object
   def get_date
