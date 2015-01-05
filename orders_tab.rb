@@ -5,6 +5,7 @@ require 'orders_model'
 
 require 'order'
 require 'ap'
+require 'date'
 
 class OrdersTab < Qt::Widget
 
@@ -39,7 +40,9 @@ class OrdersTab < Qt::Widget
   end
 
   def new_order
-    date = get_date
+    #date = get_date
+    date = ::Date.new
+    ap date.class
     customer = get_customer
     line_items = get_line_items( customer )
 
