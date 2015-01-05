@@ -27,16 +27,10 @@ class OrdersModel
 
   def self.add_order_to_model( order, model )
     item_customer_name = Qt::StandardItem.new( order.customer.name )
-    #item_date = Qt::StandardItem.new( order.date )
+    item_date = Qt::StandardItem.new( order.date.to_s )
     item_total_without_taxes = Qt::StandardItem.new( order.total_without_taxes.round(2).to_s )
     item_taxes = Qt::StandardItem.new( order.taxes.round(2).to_s )
     item_total = Qt::StandardItem.new( order.total.round(2).to_s )
-
-    #item_customer_name = Qt::StandardItem.new( "foo" )
-    item_date = Qt::StandardItem.new( "foo" )
-    #item_total_without_taxes = Qt::StandardItem.new( "foo" )
-    #item_taxes = Qt::StandardItem.new( "foo" )
-    #item_total = Qt::StandardItem.new( "foo" )
 
     row = model.rowCount
 

@@ -40,9 +40,8 @@ class OrdersTab < Qt::Widget
   end
 
   def new_order
-    #date = get_date
-    date = ::Date.new
-    ap date.class
+    qdate = get_date
+    date = ::Date.new( qdate.year, qdate.month, qdate.day)
     customer = get_customer
     line_items = get_line_items( customer )
 
@@ -50,6 +49,8 @@ class OrdersTab < Qt::Widget
     OrdersModel.add_order_to_model( order, @orders_model )
   end
 
+
+  # Returns a Qt::Date object
   def get_date
     date_dialog = DateDialog.new(self)
     if date_dialog.exec == 1  # if user accepted the dialog
