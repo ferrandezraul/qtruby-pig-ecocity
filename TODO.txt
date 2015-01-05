@@ -26,9 +26,8 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-
+Refactor a bit LineItemsDialog
 Add order items in orders view
-Refactor a bit
 Validate quantity before adding order item
 Validate weight?
 
