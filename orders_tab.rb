@@ -20,6 +20,7 @@ class OrdersTab < Qt::Widget
 
     button = Qt::PushButton.new( tr( 'Nova comanda' ) )
     orders_tree_view = Qt::TreeView.new
+    orders_tree_view.setAlternatingRowColors( true )
     orders_tree_view.model = @orders_model
     orders_tree_view.windowTitle = 'Orders Tree Model'
     orders_tree_view.show

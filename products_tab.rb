@@ -4,6 +4,7 @@ class ProductsTab < Qt::Widget
     super(parent)
 
     view = Qt::TreeView.new
+    view.setAlternatingRowColors( true )
     view.model = products_model
     view.windowTitle = 'Products Tree Model'
     view.show
