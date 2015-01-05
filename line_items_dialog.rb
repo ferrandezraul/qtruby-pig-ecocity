@@ -17,33 +17,9 @@ class LineItemsDialog < Qt::Dialog
     self.windowTitle = 'Selecciona els productes'
 
     @customer = customer
+    @products = products
 
     @line_items = Array.new
-
-    @customer_label = Qt::Label.new( "#{customer.name}\n#{customer.address}\n#{customer.nif}" )
-
-    @quantity_label = Qt::Label.new( 'Quantitat:' )
-    @quantity_spin_box = Qt::SpinBox.new
-
-    @weight_label = Qt::Label.new( 'Pes:' )
-    @weight_spin_box = Qt::DoubleSpinBox.new
-    @weight_spin_box.setDecimals( 3 )
-    @weight_spin_box.setSuffix( ' kg' )
-
-    # Products ComboBox
-    @products_combo_box = Qt::ComboBox.new
-    products.each do | product |
-      @products_combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
-    end
-
-    @button_add_item = Qt::PushButton.new( 'Afegir producte' )
-
-    @resume_group_box = Qt::GroupBox.new( tr( 'Productes' ) )
-    @line_items_label = Qt::Label.new
-    @line_items_label.setAlignment( Qt::AlignRight)
-
-    @button_box = Qt::DialogButtonBox.new
-    @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
     draw_widgets
 
@@ -57,23 +33,42 @@ class LineItemsDialog < Qt::Dialog
   private
 
   def draw_widgets
-    item_layout = Qt::HBoxLayout.new do |b|
-      b.addWidget(@quantity_label)
-      b.addWidget(@quantity_spin_box)
-      b.addWidget(@weight_label)
-      b.addWidget(@weight_spin_box)
-      b.addWidget(@products_combo_box)
-      b.addWidget(@button_add_item)
+    @quantity_spin_box = Qt::SpinBox.new
+    @button_add_item = Qt::PushButton.new( 'Afegir producte' )
+    @weight_spin_box = Qt::DoubleSpinBox.new
+    @weight_spin_box.setDecimals( 3 )
+    @weight_spin_box.setSuffix( ' kg' )
+
+    # Products ComboBox
+    @products_combo_box = Qt::ComboBox.new
+    @products.each do | product |
+      @products_combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
     end
+
+    @line_items_label = Qt::Label.new
+    @line_items_label.setAlignment( Qt::AlignRight)
 
     resume_layout = Qt::HBoxLayout.new do |b|
       b.addWidget(@line_items_label)
     end
 
+    @resume_group_box = Qt::GroupBox.new( tr( 'Productes' ) )
     @resume_group_box.layout = resume_layout
 
+    @button_box = Qt::DialogButtonBox.new
+    @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
+
+    item_layout = Qt::HBoxLayout.new do |b|
+      b.addWidget( Qt::Label.new( 'Quantitat:' ) )
+      b.addWidget(@quantity_spin_box)
+      b.addWidget( Qt::Label.new( 'Pes:' ) )
+      b.addWidget(@weight_spin_box)
+      b.addWidget(@products_combo_box)
+      b.addWidget(@button_add_item)
+    end
+
     self.layout = Qt::VBoxLayout.new do |g|
-      g.addWidget(@customer_label)
+      g.addWidget( Qt::Label.new( "#{@customer.name}\n#{@customer.address}\n#{@customer.nif}" ) )
       g.addLayout(item_layout)
       g.addWidget(@resume_group_box)
       g.addWidget(@button_box)
