@@ -26,6 +26,8 @@ function rbuic4() {
 
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
+
+Test NewOrderDialog if date is invalid or user cancel date or customer.
 Refactor a bit
 Validate quantity before adding order item
 Validate weight?
