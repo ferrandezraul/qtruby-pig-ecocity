@@ -43,12 +43,15 @@ class OrdersTab < Qt::Widget
     order_dialog = NewOrderDialog.new( @products, @customers, self )
 
     qdate = order_dialog.date
-    date = Date.new( qdate.year, qdate.month, qdate.day )
     customer = order_dialog.customer
     line_items = order_dialog.line_items
 
-    order = Order.new( customer, date, line_items )
-    OrdersModel.add_order_to_model( order, @orders_model )
+    if qdate && customer && line_items.any?
+      date = Date.new( qdate.year, qdate.month, qdate.day )
+
+      order = Order.new( customer, date, line_items )
+      OrdersModel.add_order_to_model( order, @orders_model )
+    end
   end
 
 end

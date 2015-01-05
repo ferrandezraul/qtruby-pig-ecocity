@@ -11,8 +11,8 @@ class NewOrderDialog < Qt::Widget
     super( parent )
 
     get_date
-    get_customer( customers )
-    get_line_items(@customer, products)
+    get_customer( customers ) if @date
+    get_line_items(@customer, products) if customer
   end
 
   # Returns a Qt::Date object
@@ -20,8 +20,6 @@ class NewOrderDialog < Qt::Widget
     date_dialog = DateDialog.new(self)
     if date_dialog.exec == 1  # if user accepted the dialog
       @date = date_dialog.get_date
-    else
-      @date = Qt::Date.new
     end
   end
 
@@ -29,8 +27,6 @@ class NewOrderDialog < Qt::Widget
     customer_dialog = CustomerDialog.new( customers, self)
     if customer_dialog.exec == 1  # if user accepted the dialog
       @customer = customer_dialog.get_customer
-    else
-      @customer = String.new
     end
   end
 
