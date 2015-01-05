@@ -18,16 +18,9 @@ class LineItemsDialog < Qt::Dialog
 
     @customer = customer
     @products = products
-
     @line_items = Array.new
 
     draw_widgets
-
-    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('show_subproducts_for_index(int)') )
-    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight_for_index(int)') )
-    connect(@button_box, SIGNAL('accepted()'), self, SLOT('accept()'))
-    connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
-    connect(@button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()'))
   end
 
   private
@@ -36,13 +29,14 @@ class LineItemsDialog < Qt::Dialog
     @line_items_label = Qt::Label.new
     @line_items_label.setAlignment( Qt::AlignRight)
 
-    @resume_group_box = Qt::GroupBox.new( tr( 'Productes' ) )
-    @resume_group_box.layout = Qt::HBoxLayout.new do |b|
-      b.addWidget(@line_items_label)
+    group_box = Qt::GroupBox.new( tr( 'Productes' ) ) do |g|
+      g.setLayout( Qt::HBoxLayout.new do |b|
+        b.addWidget(@line_items_label)
+      end )
     end
 
     @quantity_spin_box = Qt::SpinBox.new
-    @button_add_item = Qt::PushButton.new( 'Afegir producte' )
+    button_add_item = Qt::PushButton.new( 'Afegir producte' )
     @weight_spin_box = Qt::DoubleSpinBox.new
     @weight_spin_box.setDecimals( 3 )
     @weight_spin_box.setSuffix( ' kg' )
@@ -53,24 +47,30 @@ class LineItemsDialog < Qt::Dialog
       @products_combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
     end
 
-    @button_box = Qt::DialogButtonBox.new
-    @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
-
     item_layout = Qt::HBoxLayout.new do |b|
       b.addWidget( Qt::Label.new( 'Quantitat:' ) )
       b.addWidget(@quantity_spin_box)
       b.addWidget( Qt::Label.new( 'Pes:' ) )
       b.addWidget(@weight_spin_box)
       b.addWidget(@products_combo_box)
-      b.addWidget(@button_add_item)
+      b.addWidget(button_add_item)
     end
+
+    close_order_buttons = Qt::DialogButtonBox.new
+    close_order_buttons.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
     self.layout = Qt::VBoxLayout.new do |g|
       g.addWidget( Qt::Label.new( "#{@customer.name}\n#{@customer.address}\n#{@customer.nif}" ) )
       g.addLayout(item_layout)
-      g.addWidget(@resume_group_box)
-      g.addWidget(@button_box)
+      g.addWidget(group_box)
+      g.addWidget(close_order_buttons)
     end
+
+    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('show_subproducts_for_index(int)') )
+    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight_for_index(int)') )
+    connect(close_order_buttons, SIGNAL('accepted()'), self, SLOT('accept()'))
+    connect(close_order_buttons, SIGNAL('rejected()'), self, SLOT('reject()'))
+    connect(button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()') )
   end
 
   # Slot
