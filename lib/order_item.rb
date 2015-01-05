@@ -45,15 +45,15 @@ class OrderItem
 
   def item_to_s
     if @weight.to_f == 0.0
-      "#{@quantity.to_i} x #{@product.name} = #{'%.2f' % @price_without_taxes.to_f} EUR + #{@product.iva}% IVA = #{'%.2f' % @price.to_f} EUR"
+      "#{@quantity.to_i} x #{@product.name} = #{'%.2f' % @price_without_taxes.to_f} EUR + #{@product.iva}% IVA = #{'%.2f' % @price.to_f} EUR\n"
     else
-      "#{@quantity.to_i} x #{'%.3f' % @weight.to_f} kg #{@product.name} = #{'%.2f' % @price_without_taxes.to_f} EUR + #{@product.iva}% IVA = #{'%.2f' % @price.to_f} EUR"
+      "#{@quantity.to_i} x #{'%.3f' % @weight.to_f} kg #{@product.name} = #{'%.2f' % @price_without_taxes.to_f} EUR + #{@product.iva}% IVA = #{'%.2f' % @price.to_f} EUR\n"
     end
   end
 
   def product_options_to_s
     sub_string = String.new
-    if !@product_options.empty?
+    if @product_options.any?
       @product_options.each_with_index do |subproduct, index|
         sub_string << "\t#{subproduct.quantity} x #{subproduct.weight} kg #{subproduct.name}"
 
@@ -114,7 +114,7 @@ class OrderItem
     if @observations.empty?
       String.new
     else
-      "\nObservacions: #{@observations.to_s}"
+      "Observacions: #{@observations.to_s}\n"
     end
   end
 

@@ -27,6 +27,8 @@ function rbuic4() {
 \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 Refactor a bit LineItemsDialog
+In LineItemsDialog if quantity 0, disable add_product button
+When added lot, set combobox again to 0 ??
 Add order items in orders view
 Validate quantity before adding order item
 Validate weight?

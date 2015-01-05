@@ -35,7 +35,7 @@ class NewOrderDialog < Qt::Widget
   def get_line_items( customer, products )
     line_items_dialog = LineItemsDialog.new( products, customer, self )
     if line_items_dialog.exec == 1
-      @line_items = line_items_dialog.get_line_items
+      @line_items = line_items_dialog.line_items
     else
       @line_items = Array.new
     end

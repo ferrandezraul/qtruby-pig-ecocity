@@ -4,6 +4,7 @@ require 'order_item'
 require 'product_options_dialog'
 
 class LineItemsDialog < Qt::Dialog
+  attr_reader :line_items
 
   slots 'accept()', 'reject()',
         'add_product_to_line_items()',
@@ -44,6 +45,18 @@ class LineItemsDialog < Qt::Dialog
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
 
+    draw_widgets
+
+    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('show_subproducts_for_index(int)') )
+    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight_for_index(int)') )
+    connect(@button_box, SIGNAL('accepted()'), self, SLOT('accept()'))
+    connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
+    connect(@button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()'))
+  end
+
+  private
+
+  def draw_widgets
     item_layout = Qt::HBoxLayout.new do |b|
       b.addWidget(@quantity_label)
       b.addWidget(@quantity_spin_box)
@@ -65,27 +78,15 @@ class LineItemsDialog < Qt::Dialog
       g.addWidget(@resume_group_box)
       g.addWidget(@button_box)
     end
-
-    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('show_subproducts_for_index(int)') )
-    connect(@products_combo_box, SIGNAL('currentIndexChanged(int)'), self, SLOT('update_weight_for_index(int)') )
-    connect(@button_box, SIGNAL('accepted()'), self, SLOT('accept()'))
-    connect(@button_box, SIGNAL('rejected()'), self, SLOT('reject()'))
-    connect(@button_add_item, SIGNAL('clicked()'), self, SLOT('add_product_to_line_items()'))
   end
 
-  def get_line_items
-    @line_items
-  end
-
+  # Slot
   def add_product_to_line_items
     product = @products_combo_box.itemData( @products_combo_box.currentIndex ).value
-
-    # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
-    order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, Array.new )
-    @line_items << order_item
-    add_order_item_to_view( order_item )
+    add_product_with_options( product, Array.new )
   end
 
+  # Slot
   def update_weight_for_index( index )
     product = @products_combo_box.itemData( index ).value
     if product.weight_per_unit > 0
@@ -93,6 +94,7 @@ class LineItemsDialog < Qt::Dialog
     end
   end
 
+  # Slot
   def show_subproducts_for_index( index )
     product = @products_combo_box.itemData( index ).value
     if product.has_options?
@@ -101,16 +103,17 @@ class LineItemsDialog < Qt::Dialog
         options = options_dialog.get_selected_options
         product = @products_combo_box.itemData( @products_combo_box.currentIndex ).value
 
-        # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
-        order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, options )
-        @line_items << order_item
-        add_order_item_to_view( order_item )
-
-        # TODO Update views in MainWindow (emit signal??)
-        #Qt::MessageBox::information( self, tr( 'foo' ), "Opcions seleccionades #{options.each { |option| option.name } }" )
+        add_product_with_options( product, options )
       end
 
     end
+  end
+
+  def add_product_with_options( product, options )
+    # Create OrderItem.new(customer, product, quantity, weight, observations, sub_products)
+    order_item = OrderItem.new( @customer, product, @quantity_spin_box.value, @weight_spin_box.value, String.new, options )
+    @line_items << order_item
+    add_order_item_to_view( order_item )
   end
 
   def add_order_item_to_view( order_item )
