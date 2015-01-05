@@ -42,7 +42,7 @@ class OrdersTab < Qt::Widget
 
   def new_order
     qdate = get_date
-    date = ::Date.new( qdate.year, qdate.month, qdate.day)
+    date = Date.new( qdate.year, qdate.month, qdate.day )
     customer = get_customer
     line_items = get_line_items( customer )
 
