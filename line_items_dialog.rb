@@ -33,6 +33,14 @@ class LineItemsDialog < Qt::Dialog
   private
 
   def draw_widgets
+    @line_items_label = Qt::Label.new
+    @line_items_label.setAlignment( Qt::AlignRight)
+
+    @resume_group_box = Qt::GroupBox.new( tr( 'Productes' ) )
+    @resume_group_box.layout = Qt::HBoxLayout.new do |b|
+      b.addWidget(@line_items_label)
+    end
+
     @quantity_spin_box = Qt::SpinBox.new
     @button_add_item = Qt::PushButton.new( 'Afegir producte' )
     @weight_spin_box = Qt::DoubleSpinBox.new
@@ -44,16 +52,6 @@ class LineItemsDialog < Qt::Dialog
     @products.each do | product |
       @products_combo_box.addItem( product.name, Qt::Variant.fromValue( product ) )
     end
-
-    @line_items_label = Qt::Label.new
-    @line_items_label.setAlignment( Qt::AlignRight)
-
-    resume_layout = Qt::HBoxLayout.new do |b|
-      b.addWidget(@line_items_label)
-    end
-
-    @resume_group_box = Qt::GroupBox.new( tr( 'Productes' ) )
-    @resume_group_box.layout = resume_layout
 
     @button_box = Qt::DialogButtonBox.new
     @button_box.standardButtons = Qt::DialogButtonBox::Cancel|Qt::DialogButtonBox::Ok
@@ -77,13 +75,13 @@ class LineItemsDialog < Qt::Dialog
 
   # Slot
   def add_product_to_line_items
-    product = @products_combo_box.itemData( @products_combo_box.currentIndex ).value
+    product = current_product_from_combobox
     add_product_with_options( product, Array.new )
   end
 
   # Slot
   def update_weight_for_index( index )
-    product = @products_combo_box.itemData( index ).value
+    product = product_from_combobox_index( index )
     if product.weight_per_unit > 0
       @weight_spin_box.setValue( product.weight_per_unit )
     end
@@ -91,13 +89,11 @@ class LineItemsDialog < Qt::Dialog
 
   # Slot
   def show_subproducts_for_index( index )
-    product = @products_combo_box.itemData( index ).value
+    product = product_from_combobox_index( index )
     if product.has_options?
       options_dialog = ProductOptionsDialog.new( product.options, product.weight_per_unit, self )
       if options_dialog.exec == 1
         options = options_dialog.get_selected_options
-        product = @products_combo_box.itemData( @products_combo_box.currentIndex ).value
-
         add_product_with_options( product, options )
       end
 
@@ -121,6 +117,14 @@ class LineItemsDialog < Qt::Dialog
     else
       @line_items_label.setText( order_item.to_s )
     end
+  end
+
+  def current_product_from_combobox
+    @products_combo_box.itemData( @products_combo_box.currentIndex ).value
+  end
+
+  def product_from_combobox_index( index )
+    @products_combo_box.itemData( index ).value
   end
 
 end
